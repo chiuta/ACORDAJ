@@ -25,8 +25,8 @@ HTML: îl deschizi cu dublu clic, fără instalare, fără cont, fără internet
 - Nu este sfat medical, juridic sau financiar.
 
 ## Utilizare
-Descarcă `ACORDAJ.html` din Releases și deschide-l în browser.
-Verifică integritatea: `sha256sum ACORDAJ.html`
+Descarcă `index.html` din Releases și deschide-l în browser.
+Verifică integritatea: `sha256sum index.html`
 
 ## Licență
 CC0
