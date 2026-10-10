@@ -5,6 +5,11 @@ Atlas offline al celor 1134 de cursuri spirituale (acordaje, inițieri,
 variante Reiki și altele), grupate în 28 de familii. Un singur fișier
 HTML: îl deschizi cu dublu clic, fără instalare, fără cont, fără internet.
 
+> **Notă:** conținut informativ/educațional; nu înlocuiește sfatul medical, juridic sau financiar. Reiki, inițierile, astrologia și numerologia nu au validare științifică; aplicația tratează aceste subiecte critic, ca teme culturale și istorice.
+
+## Sursa datelor
+Lista celor 1134 de titluri (sisteme, inițieri, acordaje) provine de pe cursurispirituale.webnode.ro, păstrată în ordinea și numerotarea de acolo; site-ul listează doar titluri. Explicațiile din aplicație sunt scrise pe familii și teme și **nu descriu conținutul real al cursurilor**. Drepturile asupra listei originale nu au fost verificate.
+
 ## Ce conține
 - Fișă pentru fiecare curs: de unde vine, ce se promite, ce se poate verifica
 - Evaluări independente pe familii, cu surse
@@ -28,5 +33,10 @@ HTML: îl deschizi cu dublu clic, fără instalare, fără cont, fără internet
 Descarcă `index.html` din Releases și deschide-l în browser.
 Verifică integritatea: `sha256sum index.html`
 
+## Date și confidențialitate
+Verificat prin audit: pagina are CSP strictă (`connect-src 'none'`) și nu face cereri de rețea; preferințele și notele se păstrează în `localStorage`. Există un test de conectivitate declanșat doar de utilizator (butonul din secțiunea „Fără frontiere”), care ar trebui să fie blocat de CSP.
+
 ## Licență
-CC0
+CC0 1.0 (domeniu public) — vezi `LICENSE`.
+
+Audit: 2026-10-10
