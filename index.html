@@ -12,7 +12,7 @@
 html,body{margin:0;height:100%}
 body{background:var(--bg);color:var(--ink);font:calc(16px*var(--fsx,1))/var(--lhx,1.55) Georgia,"Iowan Old Style","Palatino Linotype",serif;display:flex;flex-direction:column}
 header{display:flex;flex-wrap:wrap;align-items:center;gap:10px 18px;padding:12px 16px;border-bottom:1px solid var(--line);background:var(--panel)}
-.brand{font-size:calc(22px*var(--fsx,1));letter-spacing:.28em;color:var(--gold);font-weight:700}
+.brand{margin:0;line-height:inherit;font-size:calc(22px*var(--fsx,1));letter-spacing:.28em;color:var(--gold);font-weight:700}
 .brand small{display:block;font-size:calc(11px*var(--fsx,1));letter-spacing:.08em;color:var(--mute);font-weight:400}
 nav{display:flex;gap:4px;flex-wrap:wrap;margin-left:auto}
 nav button,.btn{background:transparent;color:var(--ink);border:1px solid var(--line);border-radius:999px;padding:6px 14px;font:inherit;font-size:calc(14px*var(--fsx,1));cursor:pointer}
@@ -316,13 +316,14 @@ select.dd{background:var(--panel);color:var(--ink);border:1px solid var(--gold);
 select.dd:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
 .sub.ddbox{display:flex;gap:8px;margin:6px 0 14px;overflow:visible}
 header nav.ddbox{flex-wrap:wrap;overflow:visible;align-items:center;gap:8px}
+@media(min-width:1500px){header nav.ddbox select.dd{display:none}header nav.ddbox .ddh{display:inline-block!important}}
 @media(max-width:820px){header nav.ddbox{flex-wrap:wrap;overflow:visible;width:100%}header nav.ddbox select.dd{flex:1 1 180px}}
 
 </style>
 </head>
 <body>
 <header>
- <div class="brand">ACORDAJ<small>atlas al celor 1134 de sisteme, inițieri și acordaje · fără frontiere</small></div>
+ <h1 class="brand">ACORDAJ<small>atlas al celor 1134 de sisteme, inițieri și acordaje · fără frontiere</small></h1>
  <nav id="nav">
   <button data-v="list" class="on">Cursuri</button>
   <button data-v="cats">Categorii</button>
@@ -7776,6 +7777,8 @@ function modal(html, cls) {
   m.setAttribute("role", "dialog");
   m.setAttribute("aria-modal", "true");
   m.innerHTML = '<div class="mbox"><button class="btn mx" data-mx aria-label="Închide">✕</button>' + html + "</div>";
+  const hd = m.querySelector("h1,h2,h3");
+  m.setAttribute("aria-label", hd && hd.textContent.trim() ? hd.textContent.trim().slice(0, 80) : "Fereastră de dialog");
   m.addEventListener("mousedown", (e) => {
     if (e.target === m) closeModal();
   });
@@ -12702,8 +12705,8 @@ function i18nInit() {
   mo.observe(document.body, { childList: true, subtree: true, characterData: true, attributes: true, attributeFilter: ["placeholder", "title", "aria-label"] });
   i18nApply();
 }
-const BUILD = { name: "ACORDAJ", v: "2.0.0", date: "2026-10-07", schema: 2, lic: "Cod și structură: CC0 1.0 (domeniu public) — liber de folosit, copiat și modificat, inclusiv comercial, și fără urmărire (trade-free). Titlurile cursurilor nu fac parte din această dedicare: aparțin sursei lor (cursurispirituale.webnode.ro, https://cursurispirituale.webnode.ro/); proiect independent, neafiliat cu sursa. Dacă ești titular de drepturi sau persoană menționată și dorești corectarea sau retragerea: alexio@trom.tf (răspundem în 7 zile). / Code and structure: CC0 1.0. The course titles are not covered by this dedication: they belong to their source and rights holders; independent project, not affiliated with the source. Rights holders or mentioned persons wishing correction or removal: alexio@trom.tf (reply within 7 days)." };
-const EMBED_SHA='5f2666d8051bfbaa148004420785167f9adcaec5ebe94c8c0fb330046f3559f7';
+const BUILD = { name: "ACORDAJ", v: "2.1.1", date: "2026-10-11", schema: 2, lic: "Cod și structură: CC0 1.0 (domeniu public) — liber de folosit, copiat și modificat, inclusiv comercial, și fără urmărire (trade-free). Titlurile cursurilor nu fac parte din această dedicare: aparțin sursei lor (cursurispirituale.webnode.ro, https://cursurispirituale.webnode.ro/); proiect independent, neafiliat cu sursa. Dacă ești titular de drepturi sau persoană menționată și dorești corectarea sau retragerea: alexio@trom.tf (răspundem în 7 zile). / Code and structure: CC0 1.0. The course titles are not covered by this dedication: they belong to their source and rights holders; independent project, not affiliated with the source. Rights holders or mentioned persons wishing correction or removal: alexio@trom.tf (reply within 7 days)." };
+const EMBED_SHA='46ed7eb316181fec1cb6089bf4b54f078d3631b050da0607ad0e75ba4a6e3823';
 function migrate() {
   const f = FT();
   const v = f.schema || 1;
@@ -12889,7 +12892,7 @@ async function diagnose() {
   }
   return R;
 }
-const CHANGES = [["2.1.0", "Analize SWOT și TOWS pentru fiecare curs (1134) și categorie (28), cu export; teme vizuale; mesaj de bun venit, anulare la marcaje, bară de progres, înapoi sus, reluare de unde ai rămas."], ["2.0.0", "Atelier: 101 funcții noi, interfață în 7 limbi (RO, EN, FR, ES, DE, IT, PT), exporturi arhivistice, semnături, instantanee, unelte de studiu, discernământ, creativ și comunitate offline."], ["1.5.0", "Constelație cu clic pe curs, melodia cursului urmărește cursul deschis."], ["1.4.0", "Melodii pentru cele 28 de familii, ARES, personalități istorice."], ["1.3.0", "42 de funcții: scor de verificabilitate, coaching, poveste interactivă, QR, seif criptat."], ["1.0.0", "Atlasul de 1133 de titluri, fișe, exerciții, grafice."]];
+const CHANGES = [["2.1.1", "Rundă de reparații (11 octombrie 2026): dialogurile au nume accesibil, meniul principal are butoane vizibile pe ecrane late, indicația „Prima vizită” nu mai acoperă lista pe mobil."], ["2.1.0", "Analize SWOT și TOWS pentru fiecare curs (1134) și categorie (28), cu export; teme vizuale; mesaj de bun venit, anulare la marcaje, bară de progres, înapoi sus, reluare de unde ai rămas."], ["2.0.0", "Atelier: 101 funcții noi, interfață în 7 limbi (RO, EN, FR, ES, DE, IT, PT), exporturi arhivistice, semnături, instantanee, unelte de studiu, discernământ, creativ și comunitate offline."], ["1.5.0", "Constelație cu clic pe curs, melodia cursului urmărește cursul deschis."], ["1.4.0", "Melodii pentru cele 28 de familii, ARES, personalități istorice."], ["1.3.0", "42 de funcții: scor de verificabilitate, coaching, poveste interactivă, QR, seif criptat."], ["1.0.0", "Atlasul de 1133 de titluri, fișe, exerciții, grafice."]];
 labReg("dur", "man", "Manifest", () => {
   const B = BUILD;
   return LB.card(
@@ -17476,8 +17479,8 @@ function featInit() {
     setTimeout(vaultPrompt, 150);
   }
   try {
-    if (!FT().tour && !S.enc) {
-      setTimeout(() => toast("Prima vizită? Ctrl+K → „Tur ghidat”, sau fila Despre.", 5200), 1200);
+    if (!FT().tour && !S.enc && UX().seen) {
+      setTimeout(() => toast("Prima vizită? Ctrl+K → „Tur ghidat”, sau fila Despre.", 3500), 1200);
     }
   } catch (e) {
   }

@@ -2,6 +2,8 @@
 
 **Live / demo:** https://chiuta.github.io/ACORDAJ/
 
+Ultima actualizare: 11 octombrie 2026 · versiunea 2.1.1
+
 ![ACORDAJ — captură de ecran / screenshot](screenshot.png)
 
 ACORDAJ: atlas offline, într-un singur fișier HTML, 1134 de cursuri spirituale (acordaje, inițieri, variante Reiki…). Surse, evaluări și unelte de discernământ, în 7 limbi. Fără server, fără urmărire, trade-free.
@@ -51,5 +53,12 @@ Verificat prin audit: pagina are CSP strictă (`connect-src 'none'`) și nu face
 
 ## Licență
 CC0 1.0 (domeniu public) pentru codul și structura aplicației — vezi `LICENSE`. Titlurile celor 1134 de cursuri provin de pe cursurispirituale.webnode.ro și nu fac parte din această dedicare (drepturile asupra listei nu au fost verificate). Textele din pagină au fost aliniate la CC0 în audit-ul rundei 2 (anterior menționau „fără scop comercial”).
+
+## Istoric / Changelog
+
+- **2.1.1 (11 octombrie 2026):** dialogurile (fereastra de bun venit etc.) au nume accesibil (`aria-label` din titlu), deci axe-core: 0 violări la 1280 și 360 px; titlul ACORDAJ este acum `<h1>` (pagina are mereu un titlu de nivel 1).
+- Meniul principal: pe ecrane de cel puțin 1500 px se afișează butoanele (nu doar selectul), pentru acces direct prin tastatură/automatizare; sub 1500 px rămâne selectul.
+- Indicația „Prima vizită?” nu mai apare peste fereastra de bun venit și nu mai acoperă lista pe telefon (apare doar după ce bun-venitul a fost închis, 3,5 s). `screenshot.png` reînnoit.
+- Suma SHA-256 încorporată a fost recalculată după modificări (verificarea de integritate din Atelier trece). Versiune și dată în `BUILD`: 2.1.1 / 2026-10-11. Fișierul are ~2,1 MB; nerezolvat: dimensiunea și drepturile asupra listei sursă (decizie a autorului).
 
 Audit: 2026-10-10; rundă 2 și 3: 2026-10-11
