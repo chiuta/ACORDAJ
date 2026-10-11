@@ -2,7 +2,7 @@
 
 **Live / demo:** https://chiuta.github.io/ACORDAJ/
 
-Ultima actualizare: 11 octombrie 2026 · versiunea 2.1.2
+Ultima actualizare: 11 octombrie 2026 · versiunea 2.1.3
 
 ![ACORDAJ — captură de ecran / screenshot](screenshot.png)
 
@@ -33,7 +33,7 @@ Lista celor 1134 de titluri (sisteme, inițieri, acordaje) provine de pe cursuri
 ## Limite
 - Evaluările sunt grile de gândire, nu sentințe asupra cursurilor sau persoanelor.
 - Traducerile acoperă interfața, nu fișele cursurilor (rămân în română).
-- Fazele principale ale Lunii (nouă/plină) sunt calculate cu formulele lui Meeus (termenii principali), cu precizie de ordinul minutelor (verificate pe lună nouă 10.10.2026 15:50 UTC și lună plină 26.10.2026 04:12 UTC); vârsta și iluminarea Lunii sunt interpolate între aceste faze.
+- Fazele principale ale Lunii (nouă/plină) sunt calculate cu formulele lui Meeus (termenii principali), cu precizie de ordinul minutelor (verificate pe lună nouă 10.10.2026 15:50 UTC și lună plină 26.10.2026 04:12 UTC); iluminarea Lunii se calculează din elongația reală Soare–Lună (aceleași formule Meeus, termenii principali; abatere de ordinul a ~1 %), iar vârsta Lunii este numărul real de zile de la ultima lună nouă.
 - Nu este sfat medical, juridic sau financiar.
 
 ## Utilizare
@@ -56,6 +56,7 @@ CC0 1.0 (domeniu public) pentru codul și structura aplicației — vezi `LICENS
 
 ## Istoric / Changelog
 
+- **2.1.3 (11 octombrie 2026, rev. 3):** iluminarea Lunii din elongația reală (Meeus, termenii principali) în loc de interpolare între faze (verificată: ≈0,1 % la luna nouă din 10.10.2026, ≈99,8 % la luna plină din 26.10.2026, ≈50 % la primul pătrar din 15.04.2024); vârsta Lunii = zile reale de la ultima lună nouă; textul din Calendarul de cicluri (care încă vorbea de „calcul medie-sinodic”) corectat; suma de integritate și hash-ul CSP recalculate.
 - **2.1.2 (11 octombrie 2026, rev. 2):** CSP cu hash pentru script, fără `'unsafe-inline'` (ultimul handler inline, câmpul codului de partajare, a fost înlocuit); butonul „Copiază codul” la partajarea listelor; fazele Lunii (nouă/plină) cu formulele lui Meeus, în loc de ciclul mediu (eroare de până la ~20 h); tema inițială urmează preferința sistemului (luminos/întunecat) când nu ai ales una, plus suport `prefers-contrast` și culori forțate; contrast corectat în tema luminoasă; ierarhie de titluri corectă în „Categorii”; tabelele derulabile pot fi parcurse cu tastatura. Meniul principal rămâne select sub 1500 px (17 intrări nu încap pe un rând); selectul este accesibil prin tastatură.
 - **2.1.1 (11 octombrie 2026):** dialogurile (fereastra de bun venit etc.) au nume accesibil (`aria-label` din titlu), deci axe-core: 0 violări la 1280 și 360 px; titlul ACORDAJ este acum `<h1>` (pagina are mereu un titlu de nivel 1).
 - Meniul principal: pe ecrane de cel puțin 1500 px se afișează butoanele (nu doar selectul), pentru acces direct prin tastatură/automatizare; sub 1500 px rămâne selectul.
