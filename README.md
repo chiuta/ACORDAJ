@@ -1,4 +1,9 @@
 # ACORDAJ
+
+**Live / demo:** https://chiuta.github.io/ACORDAJ/
+
+![ACORDAJ — captură de ecran / screenshot](screenshot.png)
+
 ACORDAJ: atlas offline, într-un singur fișier HTML, 1134 de cursuri spirituale (acordaje, inițieri, variante Reiki…). Surse, evaluări și unelte de discernământ, în 7 limbi. Fără server, fără urmărire, trade-free.
 
 Atlas offline al celor 1134 de cursuri spirituale (acordaje, inițieri,
