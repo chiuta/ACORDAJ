@@ -12,7 +12,7 @@ Lista celor 1134 de titluri (sisteme, inițieri, acordaje) provine de pe cursuri
 
 ## Ce conține
 - Fișă pentru fiecare curs: de unde vine, ce se promite, ce se poate verifica
-- Evaluări independente pe familii, cu surse
+- Evaluări la nivel de familie (28 de familii, câte 3–5 surse neutre fiecare: enciclopedii, NCCIH, Stanford etc.), redactate în atlas și independente de site-urile vânzătorilor; nu sunt evaluări ale fiecărui curs în parte, iar nu toate fișele individuale au surse proprii
 - Atelier: unelte de studiu, discernământ critic, creație și comunitate offline
 - Analize SWOT și TOWS pentru fiecare curs și fiecare categorie
 - Interfață în 7 limbi: RO, EN, FR, ES, DE, IT, PT
@@ -37,6 +37,6 @@ Verifică integritatea: `sha256sum index.html`
 Verificat prin audit: pagina are CSP strictă (`connect-src 'none'`) și nu face cereri de rețea; preferințele și notele se păstrează în `localStorage`. Există un test de conectivitate declanșat doar de utilizator (butonul din secțiunea „Fără frontiere”), care ar trebui să fie blocat de CSP.
 
 ## Licență
-CC0 1.0 (domeniu public) — vezi `LICENSE`.
+CC0 1.0 (domeniu public) pentru codul și structura aplicației — vezi `LICENSE`. Titlurile celor 1134 de cursuri provin de pe cursurispirituale.webnode.ro și nu fac parte din această dedicare (drepturile asupra listei nu au fost verificate). Textele din pagină au fost aliniate la CC0 în audit-ul rundei 2 (anterior menționau „fără scop comercial”).
 
-Audit: 2026-10-10
+Audit: 2026-10-10; rundă 2: 2026-10-11
