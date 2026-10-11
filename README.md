@@ -2,7 +2,7 @@
 
 **Live / demo:** https://chiuta.github.io/ACORDAJ/
 
-Ultima actualizare: 11 octombrie 2026 · versiunea 2.1.1
+Ultima actualizare: 11 octombrie 2026 · versiunea 2.1.2
 
 ![ACORDAJ — captură de ecran / screenshot](screenshot.png)
 
@@ -33,7 +33,7 @@ Lista celor 1134 de titluri (sisteme, inițieri, acordaje) provine de pe cursuri
 ## Limite
 - Evaluările sunt grile de gândire, nu sentințe asupra cursurilor sau persoanelor.
 - Traducerile acoperă interfața, nu fișele cursurilor (rămân în română).
-- Fazele lunii din calendar au o eroare de până la aproximativ o zi.
+- Fazele principale ale Lunii (nouă/plină) sunt calculate cu formulele lui Meeus (termenii principali), cu precizie de ordinul minutelor (verificate pe lună nouă 10.10.2026 15:50 UTC și lună plină 26.10.2026 04:12 UTC); vârsta și iluminarea Lunii sunt interpolate între aceste faze.
 - Nu este sfat medical, juridic sau financiar.
 
 ## Utilizare
@@ -41,7 +41,7 @@ Descarcă `index.html` din Releases și deschide-l în browser.
 Verifică integritatea: `sha256sum index.html`
 
 ## Date și confidențialitate
-Verificat prin audit: pagina are CSP strictă (`connect-src 'none'`) și nu face cereri de rețea; preferințele și notele se păstrează în `localStorage`. Există un test de conectivitate declanșat doar de utilizator (butonul din secțiunea „Fără frontiere”), care ar trebui să fie blocat de CSP.
+Verificat prin audit: pagina are CSP strictă (`connect-src 'none'`) și nu face cereri de rețea; preferințele și notele se păstrează în `localStorage`. Scriptul este protejat prin CSP cu hash (`script-src 'sha256-…'`, fără `'unsafe-inline'` pentru scripturi); nu mai există handlere inline. Există un test de conectivitate declanșat doar de utilizator (butonul din secțiunea „Fără frontiere”), care ar trebui să fie blocat de CSP.
 
 ## Drepturi și atribuire
 - **Sursa listei:** cele 1134 de titluri provin de pe [cursurispirituale.webnode.ro](https://cursurispirituale.webnode.ro/), păstrate în ordinea și numerotarea de acolo. Titlurile aparțin sursei și titularilor lor; drepturile asupra listei originale nu au fost verificate.
@@ -56,6 +56,7 @@ CC0 1.0 (domeniu public) pentru codul și structura aplicației — vezi `LICENS
 
 ## Istoric / Changelog
 
+- **2.1.2 (11 octombrie 2026, rev. 2):** CSP cu hash pentru script, fără `'unsafe-inline'` (ultimul handler inline, câmpul codului de partajare, a fost înlocuit); butonul „Copiază codul” la partajarea listelor; fazele Lunii (nouă/plină) cu formulele lui Meeus, în loc de ciclul mediu (eroare de până la ~20 h); tema inițială urmează preferința sistemului (luminos/întunecat) când nu ai ales una, plus suport `prefers-contrast` și culori forțate; contrast corectat în tema luminoasă; ierarhie de titluri corectă în „Categorii”; tabelele derulabile pot fi parcurse cu tastatura. Meniul principal rămâne select sub 1500 px (17 intrări nu încap pe un rând); selectul este accesibil prin tastatură.
 - **2.1.1 (11 octombrie 2026):** dialogurile (fereastra de bun venit etc.) au nume accesibil (`aria-label` din titlu), deci axe-core: 0 violări la 1280 și 360 px; titlul ACORDAJ este acum `<h1>` (pagina are mereu un titlu de nivel 1).
 - Meniul principal: pe ecrane de cel puțin 1500 px se afișează butoanele (nu doar selectul), pentru acces direct prin tastatură/automatizare; sub 1500 px rămâne selectul.
 - Indicația „Prima vizită?” nu mai apare peste fereastra de bun venit și nu mai acoperă lista pe telefon (apare doar după ce bun-venitul a fost închis, 3,5 s). `screenshot.png` reînnoit.
