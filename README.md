@@ -1,8 +1,8 @@
 # ACORDAJ
 
-**Live / demo:** https://chiuta.github.io/ACORDAJ/
+**Versiune:** 2.1.4 · **Ultima actualizare:** 12 octombrie 2026
 
-Ultima actualizare: 11 octombrie 2026 · versiunea 2.1.3
+**Live / demo:** https://chiuta.github.io/ACORDAJ/
 
 ![ACORDAJ — captură de ecran / screenshot](screenshot.png)
 
@@ -55,6 +55,8 @@ Verificat prin audit: pagina are CSP strictă (`connect-src 'none'`) și nu face
 CC0 1.0 (domeniu public) pentru codul și structura aplicației — vezi `LICENSE`. Titlurile celor 1134 de cursuri provin de pe cursurispirituale.webnode.ro și nu fac parte din această dedicare (drepturile asupra listei nu au fost verificate). Textele din pagină au fost aliniate la CC0 în audit-ul rundei 2 (anterior menționau „fără scop comercial”).
 
 ## Istoric / Changelog
+
+- **2.1.4 (12 octombrie 2026):** versiunea și data ultimei actualizări sunt afișate în aplicație (subsol); suma SHA-256 încorporată și hash-ul CSP au fost recalculate.
 
 - **2.1.3 (11 octombrie 2026, rev. 3):** iluminarea Lunii din elongația reală (Meeus, termenii principali) în loc de interpolare între faze (verificată: ≈0,1 % la luna nouă din 10.10.2026, ≈99,8 % la luna plină din 26.10.2026, ≈50 % la primul pătrar din 15.04.2024); vârsta Lunii = zile reale de la ultima lună nouă; textul din Calendarul de cicluri (care încă vorbea de „calcul medie-sinodic”) corectat; suma de integritate și hash-ul CSP recalculate.
 - **2.1.2 (11 octombrie 2026, rev. 2):** CSP cu hash pentru script, fără `'unsafe-inline'` (ultimul handler inline, câmpul codului de partajare, a fost înlocuit); butonul „Copiază codul” la partajarea listelor; fazele Lunii (nouă/plină) cu formulele lui Meeus, în loc de ciclul mediu (eroare de până la ~20 h); tema inițială urmează preferința sistemului (luminos/întunecat) când nu ai ales una, plus suport `prefers-contrast` și culori forțate; contrast corectat în tema luminoasă; ierarhie de titluri corectă în „Categorii”; tabelele derulabile pot fi parcurse cu tastatura. Meniul principal rămâne select sub 1500 px (17 intrări nu încap pe un rând); selectul este accesibil prin tastatură.
