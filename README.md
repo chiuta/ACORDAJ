@@ -1,6 +1,6 @@
 # ACORDAJ
 
-**Versiune:** 2.1.4 · **Ultima actualizare:** 12 octombrie 2026
+**Versiune:** 2.2.0 · **Ultima actualizare:** 14 octombrie 2026
 
 **Live / demo:** https://chiuta.github.io/ACORDAJ/
 
@@ -54,7 +54,17 @@ Verificat prin audit: pagina are CSP strictă (`connect-src 'none'`) și nu face
 ## Licență
 CC0 1.0 (domeniu public) pentru codul și structura aplicației — vezi `LICENSE`. Titlurile celor 1134 de cursuri provin de pe cursurispirituale.webnode.ro și nu fac parte din această dedicare (drepturile asupra listei nu au fost verificate). Textele din pagină au fost aliniate la CC0 în audit-ul rundei 2 (anterior menționau „fără scop comercial”).
 
+## Funcții noi (v2.2.0)
+
+- **Căutare după temă în tot atlasul** (butonul 🔎 de lângă „Aleatoriu”, FFF.search): caută în titlu, familii, tipul practicii, particularități și notele despre temă ale celor 1134 de cursuri, tolerant la diacritice, greșeli mici și forme ale cuvintelor, cu rezultate ordonate și salt direct la fișă. Local, fără AI și fără rețea. Nu caută în explicațiile generale ale familiei și nu descrie conținutul real al cursurilor (site-ul sursă listează doar titluri). Căutarea existentă din listă rămâne neschimbată.
+- **Etichetă de transparență și copie .fff.json** (kit comun: core, label, bundle, search): clic pe `v 2.2.0 · 2026-10-14` din subsol; arată rețeaua (0 cereri), cheile stocate și permite exportul/importul (opțional criptat cu parolă) al progresului și favoritelor din `localStorage`. Mecanismele proprii de copie din „Date” rămân.
+- Suma SHA-256 încorporată (verificarea de integritate din Atelier) a fost recalculată; noul cod stă într-un script separat, hash-urile CSP au fost recalculate. `BUILD` = 2.2.0 / 2026-10-14.
+- Textele noi sunt în ro, en, fr, it, es, pt, hu, de; traducerile fr/it/es/pt/hu/de sunt automate și neverificate nativ.
+- Teste: `tests/fff-r8.test.mjs` (rețea blocată, 1280 și 360 px, axe 0 violări cu dialogul deschis, integritate, favorite în copie).
+
 ## Istoric / Changelog
+
+- **2.2.0 (14 octombrie 2026):** căutare după temă (FFF.search), etichetă de transparență și copie .fff.json (kit comun), teste; suma SHA-256 încorporată recalculată.
 
 - **2.1.4 (12 octombrie 2026):** versiunea și data ultimei actualizări sunt afișate în aplicație (subsol); suma SHA-256 încorporată și hash-ul CSP au fost recalculate.
 

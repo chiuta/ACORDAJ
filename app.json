@@ -1,0 +1,82 @@
+{
+  "schema": 1,
+  "slug": "acordaj",
+  "name": "ACORDAJ — Atlasul celor 1134 de sisteme spirituale",
+  "version": "2.2.0",
+  "updated": "2026-10-14",
+  "description": "",
+  "egress": [
+    {
+      "host": "example.com",
+      "via": [
+        "fetch"
+      ]
+    }
+  ],
+  "permissions": [
+    "getUserMedia",
+    "speechSynthesis",
+    "SpeechRecognition",
+    "clipboard",
+    "serviceWorker",
+    "localStorage",
+    "Web Crypto"
+  ],
+  "storageKeys": [
+    "__t",
+    "acordaj.theme",
+    "acordaj.v1"
+  ],
+  "sizeBytes": 2286925,
+  "sha256": "800749c288fff8254116e4ad57f665297b0aa9fe6b48cc73586b403d2c8bff86",
+  "csp": {
+    "present": true,
+    "directives": {
+      "default-src": "'none'",
+      "script-src": "sha256×3",
+      "style-src": "'unsafe-inline'",
+      "img-src": "data: blob:",
+      "media-src": "blob: data:",
+      "connect-src": "'none'",
+      "font-src": "'none'",
+      "form-action": "'none'",
+      "base-uri": "'none'"
+    },
+    "scriptInline": "hash",
+    "connect": "'none'"
+  },
+  "features": {
+    "export": true,
+    "import": true,
+    "i18n": [
+      "ro",
+      "en",
+      "fr",
+      "it",
+      "es",
+      "pt",
+      "hu",
+      "de"
+    ],
+    "pwa": {
+      "manifest": true,
+      "serviceWorker": true
+    },
+    "modules": [
+      "core",
+      "label",
+      "bundle",
+      "search"
+    ]
+  },
+  "kit": {
+    "version": "1.0.0",
+    "modules": [
+      "core",
+      "label",
+      "bundle",
+      "search"
+    ]
+  },
+  "selfSerializing": true
+}
