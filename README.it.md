@@ -1,0 +1,78 @@
+# ACORDAJ
+
+[English](README.md) · [Română](README.ro.md) · [Français](README.fr.md) · **Italiano** · [Español](README.es.md) · [Português](README.pt.md) · [Deutsch](README.de.md) · [Magyar](README.hu.md)
+
+**Versione:** 2.2.0 · **Ultimo aggiornamento:** 2026-10-14
+
+**Applicazione online / demo:** https://chiuta.github.io/ACORDAJ/
+
+![ACORDAJ — schermata](screenshot.png)
+
+ACORDAJ: atlante offline, in un unico file HTML, di 1134 corsi spirituali (accordature, iniziazioni, varianti di Reiki…). Fonti, valutazioni e strumenti di discernimento, in 7 lingue. Senza server, senza tracciamento, trade-free.
+
+Atlante offline dei 1134 corsi spirituali (accordature, iniziazioni, varianti di Reiki e altri), raggruppati in 28 famiglie. Un unico file HTML: lo apri con un doppio clic, senza installazione, senza account, senza internet.
+
+> **Nota:** contenuto informativo/educativo; non sostituisce un parere medico, legale o finanziario. Il Reiki, le iniziazioni, l'astrologia e la numerologia non hanno validazione scientifica; l'app tratta questi argomenti in modo critico, come temi culturali e storici.
+
+## Fonte dei dati
+L'elenco dei 1134 titoli (sistemi, iniziazioni, accordature) proviene da cursurispirituale.webnode.ro, mantenuto nell'ordine e nella numerazione di quel sito; il sito elenca solo titoli. Le spiegazioni nell'app sono scritte per famiglie e temi e **non descrivono il contenuto reale dei corsi**. I diritti sull'elenco originale non sono stati verificati.
+
+## Che cosa contiene
+- Una scheda per ogni corso: da dove viene, che cosa promette, che cosa si può verificare
+- Valutazioni a livello di famiglia (28 famiglie, da 3 a 5 fonti neutrali ciascuna: enciclopedie, NCCIH, Stanford ecc.), redatte nell'atlante e indipendenti dai siti dei venditori; non sono valutazioni di ogni singolo corso, e non tutte le schede individuali hanno fonti proprie
+- Laboratorio: strumenti di studio, discernimento critico, creazione e comunità offline
+- Analisi SWOT e TOWS per ogni corso e ogni categoria
+- Interfaccia in 7 lingue: RO, EN, FR, ES, DE, IT, PT
+- Funziona su telefono, tablet e desktop (iOS, Android)
+
+## Principi
+- Senza frontiere: un file, senza server, senza account
+- Trade-free: senza pubblicità, senza tracciamento, non si vende nulla
+- Valuta, non raccomanda
+
+## Limiti
+- Le valutazioni sono griglie di riflessione, non sentenze su corsi o persone.
+- Le traduzioni riguardano l'interfaccia, non le schede dei corsi (che restano in rumeno).
+- Le fasi principali della Luna (nuova/piena) sono calcolate con le formule di Meeus (termini principali), con precisione dell'ordine dei minuti (verificate sulla luna nuova del 10.10.2026 alle 15:50 UTC e sulla luna piena del 26.10.2026 alle 04:12 UTC); l'illuminazione della Luna è calcolata dall'elongazione reale Sole–Luna (stesse formule di Meeus, termini principali; scarto dell'ordine di ~1 %), e l'età della Luna è il numero reale di giorni dall'ultima luna nuova.
+- Non è un parere medico, legale o finanziario.
+
+## Utilizzo
+Scarica `index.html` da Releases e aprilo in un browser.
+Verifica l'integrità: `sha256sum index.html`
+
+## Dati e riservatezza
+Verificato con audit: la pagina ha una CSP rigorosa (`connect-src 'none'`) e non effettua richieste di rete; le preferenze e le note sono conservate in `localStorage`. Lo script è protetto da una CSP con hash (`script-src 'sha256-…'`, senza `'unsafe-inline'` per gli script); non esistono più gestori inline. Esiste un test di connettività attivato solo dall'utente (il pulsante nella sezione «Senza frontiere»), che dovrebbe essere bloccato dalla CSP.
+
+## Diritti e attribuzione
+- **Fonte dell'elenco:** i 1134 titoli provengono da [cursurispirituale.webnode.ro](https://cursurispirituale.webnode.ro/), mantenuti nell'ordine e nella numerazione di quel sito. I titoli appartengono alla fonte e ai loro titolari; i diritti sull'elenco originale non sono stati verificati.
+- **Progetto indipendente:** ACORDAJ non è affiliato al sito di origine e non è approvato né sostenuto da esso.
+- **Parte dell'autore:** il codice e la struttura dell'app, con licenza MIT (vedi `LICENSE`). La licenza dichiarata si applica SOLO a questa parte. La licenza MIT **non** copre i titoli e i materiali di terzi; i diritti su di essi appartengono ai rispettivi titolari.
+- **Rettifica / rimozione:** se sei titolare di diritti o una persona menzionata e desideri una correzione o la rimozione, scrivi a alexio@trom.tf; rispondiamo entro 7 giorni.
+
+*Diritti e attribuzione (EN).* I 1134 titoli dei corsi provengono da [cursurispirituale.webnode.ro](https://cursurispirituale.webnode.ro/), mantenuti nell'ordine e nella numerazione di quel sito; appartengono alla fonte e ai loro titolari. ACORDAJ è un progetto indipendente, non affiliato né approvato da quel sito. La parte dell'autore (codice e struttura) è con licenza MIT; la licenza MIT non copre i titoli né altro materiale di terzi. I titolari di diritti o le persone menzionate che desiderano una correzione o la rimozione: scrivete a alexio@trom.tf; rispondiamo entro 7 giorni.
+
+## Licenza
+Licenza MIT per il codice e la struttura dell'app — vedi `LICENSE`. I titoli dei 1134 corsi provengono da cursurispirituale.webnode.ro e non fanno parte di questa licenza (i diritti sull'elenco non sono stati verificati). I testi della pagina sono stati allineati alla licenza MIT nell'audit del giro 2 (in precedenza menzionavano «senza scopo commerciale»).
+
+## Nuove funzioni (v2.2.0)
+
+- **Ricerca per tema in tutto l'atlante** (il pulsante 🔎 accanto a «Casuale», FFF.search): cerca nel titolo, nelle famiglie, nel tipo di pratica, nelle particolarità e nelle note tematiche dei 1134 corsi, tollerante verso diacritici, piccoli errori e forme delle parole, con risultati ordinati e salto diretto alla scheda. In locale, senza IA e senza rete. Non cerca nelle spiegazioni generali della famiglia e non descrive il contenuto reale dei corsi (il sito di origine elenca solo titoli). La ricerca esistente nell'elenco resta invariata.
+- **Etichetta di trasparenza e copia .fff.json** (kit comune: core, label, bundle, search): clic su `v 2.2.0 · 2026-10-14` nel piè di pagina; mostra la rete (0 richieste), le chiavi archiviate e consente l'esportazione/importazione (facoltativamente cifrata con password) dei progressi e dei preferiti da `localStorage`. I meccanismi di copia propri in «Dati» restano.
+- La somma SHA-256 incorporata (il controllo di integrità nel Laboratorio) è stata ricalcolata; il nuovo codice si trova in uno script separato, gli hash CSP sono stati ricalcolati. `BUILD` = 2.2.0 / 2026-10-14.
+- I nuovi testi sono in ro, en, fr, it, es, pt, hu, de; le traduzioni fr/it/es/pt/hu/de sono automatiche e non verificate da madrelingua.
+- Test: `tests/fff-r8.test.mjs` (rete bloccata, 1280 e 360 px, axe 0 violazioni con il dialogo aperto, integrità, preferiti nella copia).
+
+## Cronologia / Changelog
+
+- **2.2.0 (14 ottobre 2026):** ricerca per tema (FFF.search), etichetta di trasparenza e copia .fff.json (kit comune), test; somma SHA-256 incorporata ricalcolata.
+
+- **2.1.4 (12 ottobre 2026):** la versione e la data dell'ultimo aggiornamento sono mostrate nell'app (piè di pagina); la somma SHA-256 incorporata e l'hash CSP sono stati ricalcolati.
+
+- **2.1.3 (11 ottobre 2026, rev. 3):** illuminazione della Luna dall'elongazione reale (Meeus, termini principali) invece dell'interpolazione tra le fasi (verificato: ≈0,1 % alla luna nuova del 10.10.2026, ≈99,8 % alla luna piena del 26.10.2026, ≈50 % al primo quarto del 15.04.2024); età della Luna = giorni reali dall'ultima luna nuova; testo nel Calendario dei cicli (che parlava ancora di «calcolo medio-sinodico») corretto; somma di integrità e hash CSP ricalcolati.
+- **2.1.2 (11 ottobre 2026, rev. 2):** CSP con hash per lo script, senza `'unsafe-inline'` (l'ultimo gestore inline, il campo del codice di condivisione, è stato sostituito); pulsante «Copia il codice» nella condivisione delle liste; fasi della Luna (nuova/piena) con le formule di Meeus, invece del ciclo medio (errore fino a ~20 h); il tema iniziale segue la preferenza del sistema (chiaro/scuro) quando non ne hai scelto uno, più supporto a `prefers-contrast` e ai colori forzati; contrasto corretto nel tema chiaro; gerarchia di titoli corretta in «Categorie»; le tabelle scorrevoli si possono percorrere con la tastiera. Il menu principale resta un select sotto i 1500 px (17 voci non entrano in una riga); il select è accessibile da tastiera.
+- **2.1.1 (11 ottobre 2026):** i dialoghi (finestra di benvenuto ecc.) hanno un nome accessibile (`aria-label` dal titolo), quindi axe-core: 0 violazioni a 1280 e 360 px; il titolo ACORDAJ è ora `<h1>` (la pagina ha sempre un titolo di livello 1).
+- Menu principale: su schermi di almeno 1500 px vengono mostrati i pulsanti (non solo il select), per l'accesso diretto da tastiera/automazione; sotto i 1500 px resta il select.
+- Il suggerimento «Prima visita?» non compare più sopra la finestra di benvenuto e non copre più l'elenco sul telefono (compare solo dopo la chiusura del benvenuto, 3,5 s). `screenshot.png` rinnovato.
+- La somma SHA-256 incorporata è stata ricalcolata dopo le modifiche (il controllo di integrità nel Laboratorio riesce). Versione e data in `BUILD`: 2.1.1 / 2026-10-11. Il file è di ~2,1 MB; irrisolti: le dimensioni e i diritti sull'elenco di origine (decisione dell'autore).
+
+Audit: 2026-10-10; giri 2 e 3: 2026-10-11
