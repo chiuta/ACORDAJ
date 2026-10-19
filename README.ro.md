@@ -8,7 +8,7 @@ Limbile interfeței: **Română, English, Français, Italiano, Español, Portugu
 
 **Live / demo:** https://chiuta.github.io/ACORDAJ/
 
-![ACORDAJ — captură de ecran / screenshot](screenshot.png)
+![ACORDAJ — captură de ecran / screenshot](screenshot.ro.png)
 
 ACORDAJ: atlas offline, într-un singur fișier HTML, 1134 de cursuri spirituale (acordaje, inițieri, variante Reiki…). Surse, evaluări și unelte de discernământ, în 8 limbi. Fără server, fără urmărire, trade-free.
 

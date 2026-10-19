@@ -8,7 +8,7 @@ Lingue dell'interfaccia: **Română, English, Français, Italiano, Español, Por
 
 **Applicazione online / demo:** https://chiuta.github.io/ACORDAJ/
 
-![ACORDAJ — schermata](screenshot.png)
+![ACORDAJ — schermata](screenshot.it.png)
 
 ACORDAJ: atlante offline, in un unico file HTML, di 1134 corsi spirituali (accordature, iniziazioni, varianti di Reiki…). Fonti, valutazioni e strumenti di discernimento, in 8 lingue. Senza server, senza tracciamento, trade-free.
 

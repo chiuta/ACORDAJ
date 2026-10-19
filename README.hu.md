@@ -8,7 +8,7 @@ A felület nyelvei: **Română, English, Français, Italiano, Español, Portugu�
 
 **Online alkalmazás / demó:** https://chiuta.github.io/ACORDAJ/
 
-![ACORDAJ — képernyőkép](screenshot.png)
+![ACORDAJ — képernyőkép](screenshot.hu.png)
 
 ACORDAJ: offline atlasz egyetlen HTML-fájlban, 1134 spirituális kurzussal (hangolások, beavatások, Reiki-változatok…). Források, értékelések és megkülönböztető eszközök, 8 nyelven. Szerver nélkül, követés nélkül, trade-free.
 

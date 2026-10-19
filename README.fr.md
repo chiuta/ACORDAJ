@@ -8,7 +8,7 @@ Langues de l'interface : **Română, English, Français, Italiano, Español, Por
 
 **Application en ligne / démo :** https://chiuta.github.io/ACORDAJ/
 
-![ACORDAJ — capture d'écran](screenshot.png)
+![ACORDAJ — capture d'écran](screenshot.fr.png)
 
 ACORDAJ : atlas hors ligne, dans un seul fichier HTML, de 1134 cours spirituels (accordages, initiations, variantes de Reiki…). Sources, évaluations et outils de discernement, en 8 langues. Sans serveur, sans pistage, trade-free.
 
