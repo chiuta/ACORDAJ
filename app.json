@@ -27,8 +27,8 @@
     "acordaj.theme",
     "acordaj.v1"
   ],
-  "sizeBytes": 2288969,
-  "sha256": "f2487dfc0e67985abd568d20f91f4bb2da21fc93e4064a8a4c71ee5892b43f81",
+  "sizeBytes": 2289605,
+  "sha256": "dcd134cfb5130059c0ad4ddd1f1104f8410a44415e5eab9941e4ea2780026a35",
   "csp": {
     "present": true,
     "directives": {
@@ -70,7 +70,7 @@
     ]
   },
   "kit": {
-    "version": "1.0.0",
+    "version": "1.1.1",
     "modules": [
       "core",
       "label",
