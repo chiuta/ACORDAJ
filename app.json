@@ -2,7 +2,7 @@
   "schema": 1,
   "slug": "acordaj",
   "name": "ACORDAJ — Atlasul celor 1134 de sisteme spirituale",
-  "version": "2.3.1",
+  "version": "2.3.2",
   "updated": "2026-10-19",
   "description": "",
   "egress": [
@@ -27,8 +27,8 @@
     "acordaj.theme",
     "acordaj.v1"
   ],
-  "sizeBytes": 2842039,
-  "sha256": "7c6c47038a208416b9b962319015d323793d73d1d0e9ec7e87a47cdac5a29f7e",
+  "sizeBytes": 2842192,
+  "sha256": "108ab6c29ad61f670b380d13c5c8932439dd66c82a2aece5f94833a584919eb2",
   "csp": {
     "present": true,
     "directives": {
