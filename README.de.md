@@ -2,13 +2,15 @@
 
 [English](README.md) · [Română](README.ro.md) · [Français](README.fr.md) · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · **Deutsch** · [Magyar](README.hu.md)
 
-**Version:** 2.2.0 · **Zuletzt aktualisiert:** 2026-10-14
+**Version:** 2.3.0 · **Zuletzt aktualisiert:** 2026-10-19
+
+Oberflächensprachen: **Română, English, Français, Italiano, Español, Português (PT), Deutsch, Magyar**
 
 **Online-Anwendung / Demo:** https://chiuta.github.io/ACORDAJ/
 
 ![ACORDAJ — Screenshot](screenshot.png)
 
-ACORDAJ: Offline-Atlas in einer einzigen HTML-Datei mit 1134 spirituellen Kursen (Einstimmungen, Einweihungen, Reiki-Varianten …). Quellen, Bewertungen und Werkzeuge der Unterscheidung, in 7 Sprachen. Ohne Server, ohne Tracking, trade-free.
+ACORDAJ: Offline-Atlas in einer einzigen HTML-Datei mit 1134 spirituellen Kursen (Einstimmungen, Einweihungen, Reiki-Varianten …). Quellen, Bewertungen und Werkzeuge der Unterscheidung, in 8 Sprachen. Ohne Server, ohne Tracking, trade-free.
 
 Offline-Atlas der 1134 spirituellen Kurse (Einstimmungen, Einweihungen, Reiki-Varianten und andere), gruppiert in 28 Familien. Eine einzige HTML-Datei: Sie öffnen sie mit einem Doppelklick, ohne Installation, ohne Konto, ohne Internet.
 
@@ -22,7 +24,7 @@ Die Liste der 1134 Titel (Systeme, Einweihungen, Einstimmungen) stammt von cursu
 - Bewertungen auf Familienebene (28 Familien, je 3–5 neutrale Quellen: Enzyklopädien, NCCIH, Stanford usw.), im Atlas verfasst und unabhängig von den Websites der Anbieter; es sind keine Bewertungen jedes einzelnen Kurses, und nicht alle einzelnen Datenblätter haben eigene Quellen
 - Werkstatt: Studienwerkzeuge, kritische Unterscheidung, Gestaltung und Offline-Gemeinschaft
 - SWOT- und TOWS-Analysen für jeden Kurs und jede Kategorie
-- Oberfläche in 7 Sprachen: RO, EN, FR, ES, DE, IT, PT
+- Oberfläche in 8 Sprachen: RO, EN, FR, ES, DE, IT, PT, HU
 - Funktioniert auf Telefon, Tablet und Desktop (iOS, Android)
 
 ## Prinzipien

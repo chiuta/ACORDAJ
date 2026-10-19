@@ -2,13 +2,15 @@
 
 [English](README.md) · [Română](README.ro.md) · **Français** · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-**Version :** 2.2.0 · **Dernière mise à jour :** 2026-10-14
+**Version :** 2.3.0 · **Dernière mise à jour :** 2026-10-19
+
+Langues de l'interface : **Română, English, Français, Italiano, Español, Português (PT), Deutsch, Magyar**
 
 **Application en ligne / démo :** https://chiuta.github.io/ACORDAJ/
 
 ![ACORDAJ — capture d'écran](screenshot.png)
 
-ACORDAJ : atlas hors ligne, dans un seul fichier HTML, de 1134 cours spirituels (accordages, initiations, variantes de Reiki…). Sources, évaluations et outils de discernement, en 7 langues. Sans serveur, sans pistage, trade-free.
+ACORDAJ : atlas hors ligne, dans un seul fichier HTML, de 1134 cours spirituels (accordages, initiations, variantes de Reiki…). Sources, évaluations et outils de discernement, en 8 langues. Sans serveur, sans pistage, trade-free.
 
 Atlas hors ligne des 1134 cours spirituels (accordages, initiations, variantes de Reiki et autres), regroupés en 28 familles. Un seul fichier HTML : on l'ouvre d'un double clic, sans installation, sans compte, sans internet.
 
@@ -22,7 +24,7 @@ La liste des 1134 titres (systèmes, initiations, accordages) provient de cursur
 - Évaluations au niveau des familles (28 familles, 3 à 5 sources neutres chacune : encyclopédies, NCCIH, Stanford, etc.), rédigées dans l'atlas et indépendantes des sites des vendeurs ; ce ne sont pas des évaluations de chaque cours pris isolément, et toutes les fiches individuelles n'ont pas leurs propres sources
 - Atelier : outils d'étude, discernement critique, création et communauté hors ligne
 - Analyses SWOT et TOWS pour chaque cours et chaque catégorie
-- Interface en 7 langues : RO, EN, FR, ES, DE, IT, PT
+- Interface en 8 langues : RO, EN, FR, ES, DE, IT, PT, HU
 - Fonctionne sur téléphone, tablette et ordinateur (iOS, Android)
 
 ## Principes

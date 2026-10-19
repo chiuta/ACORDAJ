@@ -2,13 +2,15 @@
 
 [English](README.md) · [Română](README.ro.md) · [Français](README.fr.md) · [Italiano](README.it.md) · [Español](README.es.md) · **Português** · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-**Versão:** 2.2.0 · **Última atualização:** 2026-10-14
+**Versão:** 2.3.0 · **Última atualização:** 2026-10-19
+
+Idiomas da interface: **Română, English, Français, Italiano, Español, Português (PT), Deutsch, Magyar**
 
 **Aplicação online / demo:** https://chiuta.github.io/ACORDAJ/
 
 ![ACORDAJ — captura de ecrã](screenshot.png)
 
-ACORDAJ: atlas offline, num único ficheiro HTML, de 1134 cursos espirituais (afinações, iniciações, variantes de Reiki…). Fontes, avaliações e ferramentas de discernimento, em 7 idiomas. Sem servidor, sem rastreio, trade-free.
+ACORDAJ: atlas offline, num único ficheiro HTML, de 1134 cursos espirituais (afinações, iniciações, variantes de Reiki…). Fontes, avaliações e ferramentas de discernimento, em 8 idiomas. Sem servidor, sem rastreio, trade-free.
 
 Atlas offline dos 1134 cursos espirituais (afinações, iniciações, variantes de Reiki e outros), agrupados em 28 famílias. Um único ficheiro HTML: abre-se com duplo clique, sem instalação, sem conta, sem internet.
 
@@ -22,7 +24,7 @@ A lista dos 1134 títulos (sistemas, iniciações, afinações) provém de cursu
 - Avaliações ao nível das famílias (28 famílias, 3 a 5 fontes neutras cada: enciclopédias, NCCIH, Stanford, etc.), redigidas no atlas e independentes dos sítios dos vendedores; não são avaliações de cada curso individual, e nem todas as fichas individuais têm fontes próprias
 - Oficina: ferramentas de estudo, discernimento crítico, criação e comunidade offline
 - Análises SWOT e TOWS para cada curso e cada categoria
-- Interface em 7 idiomas: RO, EN, FR, ES, DE, IT, PT
+- Interface em 8 idiomas: RO, EN, FR, ES, DE, IT, PT, HU
 - Funciona em telemóvel, tablet e computador (iOS, Android)
 
 ## Princípios

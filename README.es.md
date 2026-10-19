@@ -2,13 +2,15 @@
 
 [English](README.md) · [Română](README.ro.md) · [Français](README.fr.md) · [Italiano](README.it.md) · **Español** · [Português](README.pt.md) · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-**Versión:** 2.2.0 · **Última actualización:** 2026-10-14
+**Versión:** 2.3.0 · **Última actualización:** 2026-10-19
+
+Idiomas de la interfaz: **Română, English, Français, Italiano, Español, Português (PT), Deutsch, Magyar**
 
 **Aplicación en línea / demo:** https://chiuta.github.io/ACORDAJ/
 
 ![ACORDAJ — captura de pantalla](screenshot.png)
 
-ACORDAJ: atlas sin conexión, en un único archivo HTML, de 1134 cursos espirituales (afinaciones, iniciaciones, variantes de Reiki…). Fuentes, evaluaciones y herramientas de discernimiento, en 7 idiomas. Sin servidor, sin rastreo, trade-free.
+ACORDAJ: atlas sin conexión, en un único archivo HTML, de 1134 cursos espirituales (afinaciones, iniciaciones, variantes de Reiki…). Fuentes, evaluaciones y herramientas de discernimiento, en 8 idiomas. Sin servidor, sin rastreo, trade-free.
 
 Atlas sin conexión de los 1134 cursos espirituales (afinaciones, iniciaciones, variantes de Reiki y otros), agrupados en 28 familias. Un único archivo HTML: se abre con doble clic, sin instalación, sin cuenta, sin internet.
 
@@ -22,7 +24,7 @@ La lista de los 1134 títulos (sistemas, iniciaciones, afinaciones) procede de c
 - Evaluaciones a nivel de familia (28 familias, de 3 a 5 fuentes neutrales cada una: enciclopedias, NCCIH, Stanford, etc.), redactadas en el atlas e independientes de los sitios de los vendedores; no son evaluaciones de cada curso por separado, y no todas las fichas individuales tienen fuentes propias
 - Taller: herramientas de estudio, discernimiento crítico, creación y comunidad sin conexión
 - Análisis SWOT y TOWS para cada curso y cada categoría
-- Interfaz en 7 idiomas: RO, EN, FR, ES, DE, IT, PT
+- Interfaz en 8 idiomas: RO, EN, FR, ES, DE, IT, PT, HU
 - Funciona en teléfono, tableta y escritorio (iOS, Android)
 
 ## Principios

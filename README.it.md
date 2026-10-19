@@ -2,13 +2,15 @@
 
 [English](README.md) · [Română](README.ro.md) · [Français](README.fr.md) · **Italiano** · [Español](README.es.md) · [Português](README.pt.md) · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-**Versione:** 2.2.0 · **Ultimo aggiornamento:** 2026-10-14
+**Versione:** 2.3.0 · **Ultimo aggiornamento:** 2026-10-19
+
+Lingue dell'interfaccia: **Română, English, Français, Italiano, Español, Português (PT), Deutsch, Magyar**
 
 **Applicazione online / demo:** https://chiuta.github.io/ACORDAJ/
 
 ![ACORDAJ — schermata](screenshot.png)
 
-ACORDAJ: atlante offline, in un unico file HTML, di 1134 corsi spirituali (accordature, iniziazioni, varianti di Reiki…). Fonti, valutazioni e strumenti di discernimento, in 7 lingue. Senza server, senza tracciamento, trade-free.
+ACORDAJ: atlante offline, in un unico file HTML, di 1134 corsi spirituali (accordature, iniziazioni, varianti di Reiki…). Fonti, valutazioni e strumenti di discernimento, in 8 lingue. Senza server, senza tracciamento, trade-free.
 
 Atlante offline dei 1134 corsi spirituali (accordature, iniziazioni, varianti di Reiki e altri), raggruppati in 28 famiglie. Un unico file HTML: lo apri con un doppio clic, senza installazione, senza account, senza internet.
 
@@ -22,7 +24,7 @@ L'elenco dei 1134 titoli (sistemi, iniziazioni, accordature) proviene da cursuri
 - Valutazioni a livello di famiglia (28 famiglie, da 3 a 5 fonti neutrali ciascuna: enciclopedie, NCCIH, Stanford ecc.), redatte nell'atlante e indipendenti dai siti dei venditori; non sono valutazioni di ogni singolo corso, e non tutte le schede individuali hanno fonti proprie
 - Laboratorio: strumenti di studio, discernimento critico, creazione e comunità offline
 - Analisi SWOT e TOWS per ogni corso e ogni categoria
-- Interfaccia in 7 lingue: RO, EN, FR, ES, DE, IT, PT
+- Interfaccia in 8 lingue: RO, EN, FR, ES, DE, IT, PT, HU
 - Funziona su telefono, tablet e desktop (iOS, Android)
 
 ## Principi

@@ -2,13 +2,15 @@
 
 **English** · [Română](README.ro.md) · [Français](README.fr.md) · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-**Version:** 2.2.0 · **Last updated:** 2026-10-14
+**Version:** 2.3.0 · **Last updated:** 2026-10-19
+
+Interface languages: **Română, English, Français, Italiano, Español, Português (PT), Deutsch, Magyar**
 
 **Live app / demo:** https://chiuta.github.io/ACORDAJ/
 
 ![ACORDAJ — screenshot](screenshot.png)
 
-ACORDAJ: an offline atlas, in a single HTML file, of 1134 spiritual courses (attunements, initiations, Reiki variants…). Sources, assessments and discernment tools, in 7 languages. No server, no tracking, trade-free.
+ACORDAJ: an offline atlas, in a single HTML file, of 1134 spiritual courses (attunements, initiations, Reiki variants…). Sources, assessments and discernment tools, in 8 languages. No server, no tracking, trade-free.
 
 An offline atlas of the 1134 spiritual courses (attunements, initiations, Reiki variants and others), grouped into 28 families. A single HTML file: you open it with a double click, with no installation, no account, no internet.
 
@@ -22,7 +24,7 @@ The list of the 1134 titles (systems, initiations, attunements) comes from cursu
 - Family-level assessments (28 families, 3–5 neutral sources each: encyclopedias, NCCIH, Stanford, etc.), written within the atlas and independent of the sellers' websites; they are not assessments of each individual course, and not all individual sheets have their own sources
 - Workshop: study tools, critical discernment, creation and offline community
 - SWOT and TOWS analyses for each course and each category
-- Interface in 7 languages: RO, EN, FR, ES, DE, IT, PT
+- Interface in 8 languages: RO, EN, FR, ES, DE, IT, PT, HU
 - Works on phone, tablet and desktop (iOS, Android)
 
 ## Principles

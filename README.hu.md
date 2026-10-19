@@ -2,13 +2,15 @@
 
 [English](README.md) · [Română](README.ro.md) · [Français](README.fr.md) · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · [Deutsch](README.de.md) · **Magyar**
 
-**Verzió:** 2.2.0 · **Utolsó frissítés:** 2026-10-14
+**Verzió:** 2.3.0 · **Utolsó frissítés:** 2026-10-19
+
+A felület nyelvei: **Română, English, Français, Italiano, Español, Português (PT), Deutsch, Magyar**
 
 **Online alkalmazás / demó:** https://chiuta.github.io/ACORDAJ/
 
 ![ACORDAJ — képernyőkép](screenshot.png)
 
-ACORDAJ: offline atlasz egyetlen HTML-fájlban, 1134 spirituális kurzussal (hangolások, beavatások, Reiki-változatok…). Források, értékelések és megkülönböztető eszközök, 7 nyelven. Szerver nélkül, követés nélkül, trade-free.
+ACORDAJ: offline atlasz egyetlen HTML-fájlban, 1134 spirituális kurzussal (hangolások, beavatások, Reiki-változatok…). Források, értékelések és megkülönböztető eszközök, 8 nyelven. Szerver nélkül, követés nélkül, trade-free.
 
 Az 1134 spirituális kurzus (hangolások, beavatások, Reiki-változatok és mások) offline atlasza, 28 családba csoportosítva. Egyetlen HTML-fájl: dupla kattintással megnyitod, telepítés, fiók és internet nélkül.
 
@@ -22,7 +24,7 @@ Az 1134 cím (rendszerek, beavatások, hangolások) listája a cursurispirituale
 - Családszintű értékelések (28 család, egyenként 3–5 semleges forrással: enciklopédiák, NCCIH, Stanford stb.), az atlaszban megírva és az eladók weboldalaitól függetlenül; nem az egyes kurzusok külön értékelései, és nem minden egyedi adatlapnak van saját forrása
 - Műhely: tanulmányi eszközök, kritikai megkülönböztetés, alkotás és offline közösség
 - SWOT- és TOWS-elemzések minden kurzushoz és minden kategóriához
-- Felület 7 nyelven: RO, EN, FR, ES, DE, IT, PT
+- Felület 8 nyelven: RO, EN, FR, ES, DE, IT, PT, HU
 - Működik telefonon, táblagépen és asztali gépen (iOS, Android)
 
 ## Alapelvek

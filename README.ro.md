@@ -2,13 +2,15 @@
 
 [English](README.md) · **Română** · [Français](README.fr.md) · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-**Versiune:** 2.2.0 · **Ultima actualizare:** 2026-10-14
+**Versiune:** 2.3.0 · **Ultima actualizare:** 2026-10-19
+
+Limbile interfeței: **Română, English, Français, Italiano, Español, Português (PT), Deutsch, Magyar**
 
 **Live / demo:** https://chiuta.github.io/ACORDAJ/
 
 ![ACORDAJ — captură de ecran / screenshot](screenshot.png)
 
-ACORDAJ: atlas offline, într-un singur fișier HTML, 1134 de cursuri spirituale (acordaje, inițieri, variante Reiki…). Surse, evaluări și unelte de discernământ, în 7 limbi. Fără server, fără urmărire, trade-free.
+ACORDAJ: atlas offline, într-un singur fișier HTML, 1134 de cursuri spirituale (acordaje, inițieri, variante Reiki…). Surse, evaluări și unelte de discernământ, în 8 limbi. Fără server, fără urmărire, trade-free.
 
 Atlas offline al celor 1134 de cursuri spirituale (acordaje, inițieri,
 variante Reiki și altele), grupate în 28 de familii. Un singur fișier
@@ -24,7 +26,7 @@ Lista celor 1134 de titluri (sisteme, inițieri, acordaje) provine de pe cursuri
 - Evaluări la nivel de familie (28 de familii, câte 3–5 surse neutre fiecare: enciclopedii, NCCIH, Stanford etc.), redactate în atlas și independente de site-urile vânzătorilor; nu sunt evaluări ale fiecărui curs în parte, iar nu toate fișele individuale au surse proprii
 - Atelier: unelte de studiu, discernământ critic, creație și comunitate offline
 - Analize SWOT și TOWS pentru fiecare curs și fiecare categorie
-- Interfață în 7 limbi: RO, EN, FR, ES, DE, IT, PT
+- Interfață în 8 limbi: RO, EN, FR, ES, DE, IT, PT, HU
 - Funcționează pe telefon, tabletă și desktop (iOS, Android)
 
 ## Principii
