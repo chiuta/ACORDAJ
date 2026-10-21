@@ -34,7 +34,7 @@ Die Liste der 1134 Titel (Systeme, Einweihungen, Einstimmungen) stammt von cursu
 
 ## Grenzen
 - Die Bewertungen sind Denkraster, keine Urteile über Kurse oder Personen.
-- Die Übersetzungen decken die Oberfläche ab, nicht die Kursdatenblätter (sie bleiben auf Rumänisch).
+- Die Oberfläche **und der Inhalt** (Kursdatenblätter, Atlaslegenden, Zeitleisten, Coach-/Geschichtstexte, Glossar: fast 477.000 Zeichen) liegen in den 8 Sprachen vor; unverändert bleiben nur Eigennamen und Kurstitel der Quelle, Notenbeispiele und der zweisprachige ro+en-Rechteblock. Die Inhaltsübersetzungen sind automatisch und nicht von Muttersprachlern geprüft, und die Passagen zu Gesundheit, Sicherheit und Geld (Einstimmungen, Kristalle, Feuer/Kundalini, psychische Chirurgie, „Fülle“ usw.) **müssen fachlich geprüft werden**; die App gibt keine medizinischen oder finanziellen Ratschläge.
 - Die Hauptphasen des Mondes (Neu-/Vollmond) werden mit den Formeln von Meeus (Hauptterme) berechnet, mit einer Genauigkeit in der Größenordnung von Minuten (geprüft am Neumond vom 10.10.2026, 15:50 UTC, und am Vollmond vom 26.10.2026, 04:12 UTC); die Beleuchtung des Mondes wird aus der tatsächlichen Elongation Sonne–Mond berechnet (dieselben Formeln von Meeus, Hauptterme; Abweichung in der Größenordnung von ~1 %), und das Mondalter ist die tatsächliche Anzahl der Tage seit dem letzten Neumond.
 - Es ist keine medizinische, rechtliche oder finanzielle Beratung.
 
@@ -65,6 +65,8 @@ MIT-Lizenz für den Code und die Struktur der Anwendung — siehe `LICENSE`. Die
 - Tests: `tests/fff-r8.test.mjs` (Netzwerk gesperrt, 1280 und 360 px, axe 0 Verstöße bei geöffnetem Dialog, Integrität, Favoriten in der Kopie).
 
 ## Verlauf / Changelog
+
+- **2.3.4 (19. Oktober 2026):** Der Inhalt (Kursdatenblätter, Atlaslegenden und SVG-Beschriftungen, Zeitleisten, Coach-/Geschichts-/Ergänzungstexte, Glossar, Rechtehinweis) ist nun in en, fr, es, de, it, pt, hu übersetzt (100 % des erfassten Textes); der Atlas wird beim Sprachwechsel neu gezeichnet. Automatische Übersetzungen, nicht von Muttersprachlern geprüft; die Passagen zu Gesundheit/Sicherheit/Geld müssen fachlich geprüft werden.
 
 - **2.2.0 (14. Oktober 2026):** Themensuche (FFF.search), Transparenzetikett und .fff.json-Kopie (gemeinsames Kit), Tests; eingebettete SHA-256-Summe neu berechnet.
 

@@ -34,7 +34,7 @@ The list of the 1134 titles (systems, initiations, attunements) comes from cursu
 
 ## Limits
 - The assessments are frameworks for thinking, not verdicts on courses or persons.
-- The translations cover the interface, not the course sheets (which remain in Romanian).
+- The interface **and the content** (course sheets, atlas legends, timelines, coach/story texts, glossary: almost 477,000 characters) are available in the 8 languages; only proper names and course titles from the source, musical notes and the bilingual ro+en rights block stay as they are. The translations of the content are automatic, not verified by native speakers, and the health, safety and financial passages (attunements, crystals, fire/kundalini, psychic surgery, "abundance" etc.) **need specialist review**; the app does not give medical or financial advice.
 - The main phases of the Moon (new/full) are computed with Meeus's formulas (main terms), accurate to the order of minutes (verified on the new moon of 10.10.2026 15:50 UTC and the full moon of 26.10.2026 04:12 UTC); the Moon's illumination is computed from the real Sun–Moon elongation (the same Meeus formulas, main terms; deviation of the order of ~1%), and the Moon's age is the real number of days since the last new moon.
 - It is not medical, legal or financial advice.
 
@@ -65,6 +65,8 @@ MIT licence for the code and structure of the app — see `LICENSE`. The titles 
 - Tests: `tests/fff-r8.test.mjs` (network blocked, 1280 and 360 px, axe 0 violations with the dialog open, integrity, favourites in the copy).
 
 ## History / Changelog
+
+- **2.3.4 (19 October 2026):** the content (course sheets, atlas legends and SVG labels, timelines, coach/story/additions texts, glossary, rights note) is now translated into en, fr, es, de, it, pt, hu (100% of the identified text); the atlas is redrawn when the language changes. Automatic translations, not verified by native speakers; health/safety/financial passages need specialist review.
 
 - **2.2.0 (14 October 2026):** search by theme (FFF.search), transparency label and .fff.json copy (shared kit), tests; embedded SHA-256 sum recalculated.
 

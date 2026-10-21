@@ -34,7 +34,7 @@ La liste des 1134 titres (systèmes, initiations, accordages) provient de cursur
 
 ## Limites
 - Les évaluations sont des grilles de réflexion, non des verdicts sur des cours ou des personnes.
-- Les traductions couvrent l'interface, pas les fiches des cours (qui restent en roumain).
+- L'interface **et le contenu** (fiches des cours, légendes de l'atlas, chronologies, textes du coach/de l'histoire, glossaire : presque 477 000 caractères) sont disponibles dans les 8 langues ; seuls les noms propres et les titres de cours de la source, les notes de musique et le bloc bilingue ro+en sur les droits restent tels quels. Les traductions du contenu sont automatiques, non vérifiées par des locuteurs natifs, et les passages sur la santé, la sécurité et l'argent (accords, cristaux, feu/kundalini, chirurgie psychique, « abondance », etc.) **doivent être relus par un spécialiste** ; l'application ne donne aucun conseil médical ou financier.
 - Les phases principales de la Lune (nouvelle/pleine) sont calculées avec les formules de Meeus (termes principaux), avec une précision de l'ordre de la minute (vérifiées sur la nouvelle lune du 10.10.2026 à 15:50 UTC et la pleine lune du 26.10.2026 à 04:12 UTC) ; l'illumination de la Lune est calculée à partir de l'élongation réelle Soleil–Lune (mêmes formules de Meeus, termes principaux ; écart de l'ordre de ~1 %), et l'âge de la Lune est le nombre réel de jours depuis la dernière nouvelle lune.
 - Ce n'est pas un avis médical, juridique ou financier.
 
@@ -65,6 +65,8 @@ Licence MIT pour le code et la structure de l'application — voir `LICENSE`. Le
 - Tests : `tests/fff-r8.test.mjs` (réseau bloqué, 1280 et 360 px, axe 0 violation avec la boîte de dialogue ouverte, intégrité, favoris dans la copie).
 
 ## Historique / Changelog
+
+- **2.3.4 (19 octobre 2026) :** le contenu (fiches des cours, légendes et étiquettes SVG de l'atlas, chronologies, textes du coach/de l'histoire/des ajouts, glossaire, note sur les droits) est traduit en en, fr, es, de, it, pt, hu (100 % du texte identifié) ; l'atlas est redessiné au changement de langue. Traductions automatiques, non vérifiées par des locuteurs natifs ; les passages sur la santé/sécurité/l'argent doivent être relus par un spécialiste.
 
 - **2.2.0 (14 octobre 2026) :** recherche par thème (FFF.search), étiquette de transparence et copie .fff.json (kit commun), tests ; somme SHA-256 intégrée recalculée.
 

@@ -34,7 +34,7 @@ Az 1134 cím (rendszerek, beavatások, hangolások) listája a cursurispirituale
 
 ## Korlátok
 - Az értékelések gondolkodási rácsok, nem ítéletek kurzusokról vagy személyekről.
-- A fordítások a felületre vonatkoznak, nem a kurzusok adatlapjaira (azok románul maradnak).
+- A felület **és a tartalom** (kurzusadatlapok, az atlasz jelmagyarázatai, idővonalak, coach-/történetszövegek, szójegyzék: közel 477 000 karakter) mind a 8 nyelven elérhető; csak a forrás tulajdonnevei és kurzuscímei, a hangjegyek és a kétnyelvű ro+en jogi blokk maradnak változatlanul. A tartalom fordításai automatikusak, anyanyelvi beszélők nem ellenőrizték, az egészségről, biztonságról és pénzről szóló részek (hangolások, kristályok, tűz/kundalini, pszichikai műtét, „bőség” stb.) pedig **szakmai felülvizsgálatot igényelnek**; az alkalmazás nem ad orvosi vagy pénzügyi tanácsot.
 - A Hold fő fázisait (újhold/telihold) Meeus képleteivel számoljuk (főtagok), percnagyságrendű pontossággal (ellenőrizve a 2026.10.10-i, 15:50 UTC-kor bekövetkező újholdon és a 2026.10.26-i, 04:12 UTC-kor bekövetkező teliholdon); a Hold megvilágítása a Nap–Hold valódi elongációjából számolódik (ugyanazok a Meeus-képletek, főtagok; ~1 % nagyságrendű eltérés), a Hold kora pedig az utolsó újhold óta eltelt valódi napok száma.
 - Nem orvosi, jogi vagy pénzügyi tanács.
 
@@ -65,6 +65,8 @@ MIT licenc az alkalmazás kódjára és szerkezetére — lásd `LICENSE`. Az 11
 - Tesztek: `tests/fff-r8.test.mjs` (blokkolt hálózat, 1280 és 360 px, axe 0 szabálysértés megnyitott párbeszédablakkal, integritás, kedvencek a másolatban).
 
 ## Előzmények / Changelog
+
+- **2.3.4 (2026. október 19.):** a tartalom (kurzusadatlapok, az atlasz jelmagyarázatai és SVG-címkéi, idővonalak, coach-/történet-/kiegészítő szövegek, szójegyzék, jogi megjegyzés) le van fordítva en, fr, es, de, it, pt, hu nyelvre (az azonosított szöveg 100%-a); az atlasz nyelvváltáskor újrarajzolódik. Automatikus fordítások, anyanyelvi beszélők nem ellenőrizték; az egészségről/biztonságról/pénzről szóló részek szakmai felülvizsgálatot igényelnek.
 
 - **2.2.0 (2026. október 14.):** témakeresés (FFF.search), átláthatósági címke és .fff.json másolat (közös kit), tesztek; a beágyazott SHA-256 összeg újraszámolva.
 

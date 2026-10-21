@@ -34,7 +34,7 @@ A lista dos 1134 títulos (sistemas, iniciações, afinações) provém de cursu
 
 ## Limites
 - As avaliações são grelhas de reflexão, não sentenças sobre cursos ou pessoas.
-- As traduções abrangem a interface, não as fichas dos cursos (que permanecem em romeno).
+- A interface **e o conteúdo** (fichas dos cursos, legendas do atlas, cronologias, textos de coach/história, glossário: quase 477 000 caracteres) estão disponíveis nos 8 idiomas; só permanecem inalterados os nomes próprios e os títulos dos cursos da fonte, as notas musicais e o bloco bilingue ro+en sobre direitos. As traduções do conteúdo são automáticas, não verificadas por falantes nativos, e as passagens sobre saúde, segurança e dinheiro (sintonizações, cristais, fogo/kundalini, cirurgia psíquica, «abundância» etc.) **precisam de revisão especializada**; a aplicação não dá conselhos médicos nem financeiros.
 - As fases principais da Lua (nova/cheia) são calculadas com as fórmulas de Meeus (termos principais), com precisão da ordem dos minutos (verificadas na lua nova de 10.10.2026 às 15:50 UTC e na lua cheia de 26.10.2026 às 04:12 UTC); a iluminação da Lua é calculada a partir da elongação real Sol–Lua (as mesmas fórmulas de Meeus, termos principais; desvio da ordem de ~1 %), e a idade da Lua é o número real de dias desde a última lua nova.
 - Não é aconselhamento médico, jurídico ou financeiro.
 
@@ -65,6 +65,8 @@ Licença MIT para o código e a estrutura da aplicação — ver `LICENSE`. Os t
 - Testes: `tests/fff-r8.test.mjs` (rede bloqueada, 1280 e 360 px, axe 0 violações com o diálogo aberto, integridade, favoritos na cópia).
 
 ## Histórico / Changelog
+
+- **2.3.4 (19 de outubro de 2026):** o conteúdo (fichas dos cursos, legendas e etiquetas SVG do atlas, cronologias, textos de coach/história/adições, glossário, nota de direitos) está traduzido para en, fr, es, de, it, pt, hu (100% do texto identificado); o atlas é redesenhado ao mudar de idioma. Traduções automáticas, não verificadas por falantes nativos; as passagens sobre saúde/segurança/dinheiro precisam de revisão especializada.
 
 - **2.2.0 (14 de outubro de 2026):** pesquisa por tema (FFF.search), etiqueta de transparência e cópia .fff.json (kit comum), testes; soma SHA-256 incorporada recalculada.
 

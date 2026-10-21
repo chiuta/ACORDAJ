@@ -34,7 +34,7 @@ L'elenco dei 1134 titoli (sistemi, iniziazioni, accordature) proviene da cursuri
 
 ## Limiti
 - Le valutazioni sono griglie di riflessione, non sentenze su corsi o persone.
-- Le traduzioni riguardano l'interfaccia, non le schede dei corsi (che restano in rumeno).
+- L'interfaccia **e i contenuti** (schede dei corsi, legende dell'atlante, cronologie, testi di coach/storia, glossario: quasi 477.000 caratteri) sono disponibili nelle 8 lingue; restano invariati solo i nomi propri e i titoli dei corsi della fonte, le note musicali e il blocco bilingue ro+en sui diritti. Le traduzioni dei contenuti sono automatiche, non verificate da madrelingua, e i passaggi su salute, sicurezza e denaro (accordature, cristalli, fuoco/kundalini, chirurgia psichica, «abbondanza» ecc.) **richiedono la revisione di uno specialista**; l'app non fornisce consigli medici o finanziari.
 - Le fasi principali della Luna (nuova/piena) sono calcolate con le formule di Meeus (termini principali), con precisione dell'ordine dei minuti (verificate sulla luna nuova del 10.10.2026 alle 15:50 UTC e sulla luna piena del 26.10.2026 alle 04:12 UTC); l'illuminazione della Luna è calcolata dall'elongazione reale Sole–Luna (stesse formule di Meeus, termini principali; scarto dell'ordine di ~1 %), e l'età della Luna è il numero reale di giorni dall'ultima luna nuova.
 - Non è un parere medico, legale o finanziario.
 
@@ -65,6 +65,8 @@ Licenza MIT per il codice e la struttura dell'app — vedi `LICENSE`. I titoli d
 - Test: `tests/fff-r8.test.mjs` (rete bloccata, 1280 e 360 px, axe 0 violazioni con il dialogo aperto, integrità, preferiti nella copia).
 
 ## Cronologia / Changelog
+
+- **2.3.4 (19 ottobre 2026):** i contenuti (schede dei corsi, legende ed etichette SVG dell'atlante, cronologie, testi di coach/storia/aggiunte, glossario, nota sui diritti) sono tradotti in en, fr, es, de, it, pt, hu (100% del testo individuato); l'atlante viene ridisegnato al cambio di lingua. Traduzioni automatiche, non verificate da madrelingua; i passaggi su salute/sicurezza/denaro richiedono la revisione di uno specialista.
 
 - **2.2.0 (14 ottobre 2026):** ricerca per tema (FFF.search), etichetta di trasparenza e copia .fff.json (kit comune), test; somma SHA-256 incorporata ricalcolata.
 

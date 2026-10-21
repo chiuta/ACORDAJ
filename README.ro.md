@@ -36,7 +36,7 @@ Lista celor 1134 de titluri (sisteme, inițieri, acordaje) provine de pe cursuri
 
 ## Limite
 - Evaluările sunt grile de gândire, nu sentințe asupra cursurilor sau persoanelor.
-- Traducerile acoperă interfața, nu fișele cursurilor (rămân în română).
+- Interfața **și conținutul** (fișele cursurilor, legendele atlasului, cronologiile, textele de coach/poveste, glosarul: aproape 477.000 de caractere) sunt disponibile în cele 8 limbi; rămân neschimbate doar numele proprii și titlurile cursurilor din sursă, notele muzicale și blocul bilingv ro+en despre drepturi. Traducerile conținutului sunt automate, neverificate de vorbitori nativi, iar pasajele despre sănătate, siguranță și bani (acordaje, cristale, foc/kundalini, chirurgie psihică, „abundență” etc.) **necesită revizie de specialitate**; aplicația nu oferă sfaturi medicale sau financiare.
 - Fazele principale ale Lunii (nouă/plină) sunt calculate cu formulele lui Meeus (termenii principali), cu precizie de ordinul minutelor (verificate pe lună nouă 10.10.2026 15:50 UTC și lună plină 26.10.2026 04:12 UTC); iluminarea Lunii se calculează din elongația reală Soare–Lună (aceleași formule Meeus, termenii principali; abatere de ordinul a ~1 %), iar vârsta Lunii este numărul real de zile de la ultima lună nouă.
 - Nu este sfat medical, juridic sau financiar.
 
@@ -67,6 +67,8 @@ Licență MIT pentru codul și structura aplicației — vezi `LICENSE`. Titluri
 - Teste: `tests/fff-r8.test.mjs` (rețea blocată, 1280 și 360 px, axe 0 violări cu dialogul deschis, integritate, favorite în copie).
 
 ## Istoric / Changelog
+
+- **2.3.4 (19 octombrie 2026):** conținutul (fișele cursurilor, legendele și etichetele SVG ale atlasului, cronologiile, textele de coach/poveste/adăugiri, glosarul, nota despre drepturi) este tradus în en, fr, es, de, it, pt, hu (100% din textul identificat); atlasul se redesenează la schimbarea limbii. Traduceri automate, neverificate de vorbitori nativi; pasajele despre sănătate/siguranță/bani necesită revizie de specialitate.
 
 - **2.2.0 (14 octombrie 2026):** căutare după temă (FFF.search), etichetă de transparență și copie .fff.json (kit comun), teste; suma SHA-256 încorporată recalculată.
 

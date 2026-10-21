@@ -34,7 +34,7 @@ La lista de los 1134 títulos (sistemas, iniciaciones, afinaciones) procede de c
 
 ## Límites
 - Las evaluaciones son marcos de reflexión, no sentencias sobre cursos o personas.
-- Las traducciones cubren la interfaz, no las fichas de los cursos (que permanecen en rumano).
+- La interfaz **y el contenido** (fichas de los cursos, leyendas del atlas, cronologías, textos de coach/historia, glosario: casi 477 000 caracteres) están disponibles en los 8 idiomas; solo permanecen sin cambios los nombres propios y los títulos de los cursos de la fuente, las notas musicales y el bloque bilingüe ro+en sobre derechos. Las traducciones del contenido son automáticas, no verificadas por hablantes nativos, y los pasajes sobre salud, seguridad y dinero (sintonizaciones, cristales, fuego/kundalini, cirugía psíquica, «abundancia», etc.) **requieren revisión especializada**; la aplicación no ofrece consejos médicos ni financieros.
 - Las fases principales de la Luna (nueva/llena) se calculan con las fórmulas de Meeus (términos principales), con una precisión del orden de minutos (verificadas con la luna nueva del 10.10.2026 a las 15:50 UTC y la luna llena del 26.10.2026 a las 04:12 UTC); la iluminación de la Luna se calcula a partir de la elongación real Sol–Luna (las mismas fórmulas de Meeus, términos principales; desviación del orden de ~1 %), y la edad de la Luna es el número real de días desde la última luna nueva.
 - No es consejo médico, jurídico ni financiero.
 
@@ -65,6 +65,8 @@ Licencia MIT para el código y la estructura de la aplicación — véase `LICEN
 - Pruebas: `tests/fff-r8.test.mjs` (red bloqueada, 1280 y 360 px, axe 0 infracciones con el diálogo abierto, integridad, favoritos en la copia).
 
 ## Historial / Changelog
+
+- **2.3.4 (19 de octubre de 2026):** el contenido (fichas de los cursos, leyendas y etiquetas SVG del atlas, cronologías, textos de coach/historia/adiciones, glosario, nota de derechos) está traducido a en, fr, es, de, it, pt, hu (100 % del texto identificado); el atlas se redibuja al cambiar de idioma. Traducciones automáticas, no verificadas por hablantes nativos; los pasajes sobre salud/seguridad/dinero requieren revisión especializada.
 
 - **2.2.0 (14 de octubre de 2026):** búsqueda por tema (FFF.search), etiqueta de transparencia y copia .fff.json (kit común), pruebas; suma SHA-256 incorporada recalculada.
 
