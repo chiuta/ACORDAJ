@@ -2,7 +2,7 @@
 
 [English](README.md) · **Română** · [Français](README.fr.md) · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-**Versiune:** 2.3.7 · **Ultima actualizare:** 2026-10-22
+**Versiune:** 2.3.8 · **Ultima actualizare:** 2026-10-22
 
 Limbile interfeței: **Română, English, Français, Italiano, Español, Português (PT), Deutsch, Magyar**
 
@@ -67,6 +67,8 @@ Licență MIT pentru codul și structura aplicației — vezi `LICENSE`. Titluri
 - Teste: `tests/fff-r8.test.mjs` (rețea blocată, 1280 și 360 px, axe 0 violări cu dialogul deschis, integritate, favorite în copie).
 
 ## Istoric / Changelog
+
+- 2.3.8 — 2026-10-22: fff-kit 1.1.2: PBKDF2 600 000 iterații, protecție anti-clickjacking
 - **2.3.7 (22 octombrie 2026):** Căutarea semantică („≈ sens”) nu mai cade la cuvinte precum „constructor”; un singur H1 în pagină; service worker și manifest reale (funcționează offline și se poate instala prin https); alert/confirm/prompt ale browserului sunt înlocuite cu dialoguri proprii, traduse în cele 8 limbi; exporturile CSV prefixează cu apostrof celulele care seamănă cu formule; text minim 12 px; meta description.
 - **2.3.6 (22 octombrie 2026):** Fișa cursului nu mai rămâne în română în celelalte limbi: butoanele (Citește/Compară/Salvează), „Despre temă”, „Reprezentare grafică”, tooltip-urile și tot textul de interfață din fișă sunt traduse în cele 8 limbi (dicționar complet pentru it/es/pt/hu și șiruri cu șabloane). Titlurile și conținutul cursurilor rămân în limba originală.
 - **2.3.5 (22 octombrie 2026):** Traduse rămășițele în română din celelalte limbi: cinci titluri de termeni din glosar, linkurile „sursă”, mesajul gol din vizualizarea cursurilor, două aria-label-uri, iar titlul paginii urmează acum limba interfeței.

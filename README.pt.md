@@ -2,7 +2,7 @@
 
 [English](README.md) · [Română](README.ro.md) · [Français](README.fr.md) · [Italiano](README.it.md) · [Español](README.es.md) · **Português** · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-**Versão:** 2.3.7 · **Última atualização:** 2026-10-22
+**Versão:** 2.3.8 · **Última atualização:** 2026-10-22
 
 Idiomas da interface: **Română, English, Français, Italiano, Español, Português (PT), Deutsch, Magyar**
 
@@ -65,6 +65,8 @@ Licença MIT para o código e a estrutura da aplicação — ver `LICENSE`. Os t
 - Testes: `tests/fff-r8.test.mjs` (rede bloqueada, 1280 e 360 px, axe 0 violações com o diálogo aberto, integridade, favoritos na cópia).
 
 ## Histórico / Changelog
+
+- 2.3.8 — 2026-10-22: fff-kit 1.1.2: PBKDF2 600 000 iterações, proteção anti-clickjacking
 - **2.3.7 (22 de outubro de 2026):** A pesquisa semântica (≈ sentido) já não falha com palavras como «constructor»; um único H1 por página; service worker e manifesto reais (funciona offline e pode ser instalada por https); alert/confirm/prompt do navegador substituídos por diálogos próprios traduzidos nos 8 idiomas; as exportações CSV antepõem um apóstrofo às células que parecem fórmulas; texto mínimo de 12 px; meta description.
 - **2.3.6 (22 de outubro de 2026):** A ficha de um curso já não fica em romeno nos outros idiomas: botões (Ler/Comparar/Guardar), «Sobre o tema», «Representação gráfica», dicas e todo o texto de interface da ficha estão traduzidos nos 8 idiomas. Os títulos e o conteúdo dos cursos mantêm-se no idioma original.
 - **2.3.5 (22 de outubro de 2026):** Traduzidos os últimos elementos que ficavam em romeno nos outros idiomas: cinco títulos de termos do glossário, as ligações «fonte», a mensagem vazia da vista de cursos, dois aria-label; o título da página acompanha agora o idioma da interface.
