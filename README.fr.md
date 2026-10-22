@@ -2,7 +2,7 @@
 
 [English](README.md) · [Română](README.ro.md) · **Français** · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-**Version :** 2.3.6 · **Dernière mise à jour :** 2026-10-22
+**Version :** 2.3.7 · **Dernière mise à jour :** 2026-10-22
 
 Langues de l'interface : **Română, English, Français, Italiano, Español, Português (PT), Deutsch, Magyar**
 
@@ -65,7 +65,7 @@ Licence MIT pour le code et la structure de l'application — voir `LICENSE`. Le
 - Tests : `tests/fff-r8.test.mjs` (réseau bloqué, 1280 et 360 px, axe 0 violation avec la boîte de dialogue ouverte, intégrité, favoris dans la copie).
 
 ## Historique / Changelog
-
+- **2.3.7 (22 octobre 2026) :** La recherche sémantique (≈ sens) ne plante plus sur des mots comme «constructor»; un seul H1 par page ; vrais service worker et manifeste (fonctionne hors ligne et s'installe via https) ; alert/confirm/prompt du navigateur remplacés par des boîtes de dialogue propres, traduites dans les 8 langues ; les exports CSV préfixent d'une apostrophe les cellules ressemblant à des formules ; texte d'au moins 12 px ; meta description.
 - **2.3.6 (22 octobre 2026) :** La fiche d'un cours ne reste plus en roumain dans les autres langues : boutons (Lire/Comparer/Enregistrer), « À propos du thème », « Représentation graphique », infobulles et tout le texte d'interface de la fiche sont traduits dans les 8 langues. Les titres et le contenu des cours restent dans la langue d'origine.
 - **2.3.5 (22 octobre 2026) :** Traduction des derniers éléments roumains dans les autres langues : cinq titres de termes du glossaire, les liens « source », le message vide de la vue des cours, deux aria-labels ; le titre de la page suit désormais la langue de l'interface.
 

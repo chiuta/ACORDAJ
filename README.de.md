@@ -2,7 +2,7 @@
 
 [English](README.md) · [Română](README.ro.md) · [Français](README.fr.md) · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · **Deutsch** · [Magyar](README.hu.md)
 
-**Version:** 2.3.6 · **Zuletzt aktualisiert:** 2026-10-22
+**Version:** 2.3.7 · **Zuletzt aktualisiert:** 2026-10-22
 
 Oberflächensprachen: **Română, English, Français, Italiano, Español, Português (PT), Deutsch, Magyar**
 
@@ -65,7 +65,7 @@ MIT-Lizenz für den Code und die Struktur der Anwendung — siehe `LICENSE`. Die
 - Tests: `tests/fff-r8.test.mjs` (Netzwerk gesperrt, 1280 und 360 px, axe 0 Verstöße bei geöffnetem Dialog, Integrität, Favoriten in der Kopie).
 
 ## Verlauf / Changelog
-
+- **2.3.7 (22. Oktober 2026):** Die semantische Suche (≈ Bedeutung) bricht bei Wörtern wie „constructor“ nicht mehr ab; ein einziges H1 pro Seite; echter Service Worker samt Manifest (funktioniert offline und lässt sich über https installieren); alert/confirm/prompt des Browsers durch eigene, in die 8 Sprachen übersetzte Dialoge ersetzt; CSV-Exporte stellen formelähnlichen Zellen ein Apostroph voran; Text mindestens 12 px; Meta-Description.
 - **2.3.6 (22. Oktober 2026):** Das Kursblatt bleibt in anderen Sprachen nicht mehr rumänisch: Schaltflächen (Lesen/Vergleichen/Speichern), „Zum Thema“, „Grafische Darstellung“, Tooltips und der gesamte Oberflächentext des Blatts sind in allen 8 Sprachen übersetzt. Kurstitel und Kursinhalte bleiben in der Originalsprache.
 - **2.3.5 (22. Oktober 2026):** Die letzten rumänischen Reste in den anderen Sprachen übersetzt: fünf Glossar-Begriffstitel, die „Quelle“-Links, die Leermeldung der Kursansicht, zwei aria-labels; der Seitentitel folgt jetzt der Oberflächensprache.
 

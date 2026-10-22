@@ -70,7 +70,7 @@ ok(errs.length === 0, 'fără pageerror/CSP la pornire', errs); ok(net.length ==
   const first = (await page.locator('.r8-res li b').first().innerText());
   await page.locator('.r8-res li button').first().click(); await page.waitForTimeout(300);
   ok(!(await page.locator('#r8s-q').isVisible()), 'dialogul se închide după alegere');
-  const h1 = await page.locator('#detail h1').innerText();
+  const h1 = await page.locator('#detail .vh').innerText();
   ok(first.toLowerCase().includes(h1.toLowerCase().slice(0, 12)), 'fișa cursului ales este deschisă', [first, h1]);
   // fără diacritice / formă de cuvânt
   await page.locator('#r8-search-btn').click();

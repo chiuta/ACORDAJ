@@ -2,7 +2,7 @@
 
 [English](README.md) · [Română](README.ro.md) · [Français](README.fr.md) · [Italiano](README.it.md) · **Español** · [Português](README.pt.md) · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-**Versión:** 2.3.6 · **Última actualización:** 2026-10-22
+**Versión:** 2.3.7 · **Última actualización:** 2026-10-22
 
 Idiomas de la interfaz: **Română, English, Français, Italiano, Español, Português (PT), Deutsch, Magyar**
 
@@ -65,7 +65,7 @@ Licencia MIT para el código y la estructura de la aplicación — véase `LICEN
 - Pruebas: `tests/fff-r8.test.mjs` (red bloqueada, 1280 y 360 px, axe 0 infracciones con el diálogo abierto, integridad, favoritos en la copia).
 
 ## Historial / Changelog
-
+- **2.3.7 (22 de octubre de 2026):** La búsqueda semántica (≈ significado) ya no falla con palabras como «constructor»; un solo H1 por página; service worker y manifiesto reales (funciona sin conexión y se puede instalar por https); alert/confirm/prompt del navegador sustituidos por diálogos propios traducidos a los 8 idiomas; las exportaciones CSV anteponen un apóstrofo a las celdas que parecen fórmulas; texto mínimo de 12 px; meta description.
 - **2.3.6 (22 de octubre de 2026):** La ficha de un curso ya no queda en rumano en los demás idiomas: botones (Leer/Comparar/Guardar), «Sobre el tema», «Representación gráfica», tooltips y todo el texto de interfaz de la ficha se traducen a los 8 idiomas. Los títulos y el contenido de los cursos siguen en el idioma original.
 - **2.3.5 (22 de octubre de 2026):** Traducidos los últimos elementos que seguían en rumano en los demás idiomas: cinco títulos de términos del glosario, los enlaces «fuente», el mensaje vacío de la vista de cursos, dos aria-label; el título de la página ahora sigue el idioma de la interfaz.
 
