@@ -2,7 +2,7 @@
 
 [English](README.md) · **Română** · [Français](README.fr.md) · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-**Versiune:** 2.3.9 · **Ultima actualizare:** 2026-10-22
+**Versiune:** 2.3.10 · **Ultima actualizare:** 2026-10-22
 
 Limbile interfeței: **Română, English, Français, Italiano, Español, Português (PT), Deutsch, Magyar**
 
@@ -47,6 +47,8 @@ Verifică integritatea: `sha256sum index.html`
 ## Date și confidențialitate
 Verificat prin audit: pagina are CSP strictă (`connect-src 'none'`) și nu face cereri de rețea; preferințele și notele se păstrează în `localStorage`. Scriptul este protejat prin CSP cu hash (`script-src 'sha256-…'`, fără `'unsafe-inline'` pentru scripturi); nu mai există handlere inline. Există un test de conectivitate declanșat doar de utilizator (butonul din secțiunea „Fără frontiere”), care ar trebui să fie blocat de CSP.
 
+**Autotest CSP intenționat.** Singurul cod care pare „de rețea” este butonul din panoul de transparență care încearcă un `fetch` către `https://example.com/` doar când îl apeși. Nu trimite date; scopul lui este să arate că CSP-ul **blochează** conexiunea. Este declarat intenționat în `fff.config.json` (`cspSelfTest`), deci intrarea `example.com` din eticheta de transparență este acest test, nu o dependență reală.
+
 ## Drepturi și atribuire
 - **Sursa listei:** cele 1134 de titluri provin de pe [cursurispirituale.webnode.ro](https://cursurispirituale.webnode.ro/), păstrate în ordinea și numerotarea de acolo. Titlurile aparțin sursei și titularilor lor; drepturile asupra listei originale nu au fost verificate.
 - **Proiect independent:** ACORDAJ nu este afiliat cu site-ul sursă și nu este aprobat sau susținut de acesta.
@@ -67,6 +69,7 @@ Licență MIT pentru codul și structura aplicației — vezi `LICENSE`. Titluri
 - Teste: `tests/fff-r8.test.mjs` (rețea blocată, 1280 și 360 px, axe 0 violări cu dialogul deschis, integritate, favorite în copie).
 
 ## Istoric / Changelog
+- **2.3.10 — 2026-10-22:** Greutate: pagina scade de la 8,2 MB la 1,9 MB. Dicționarul interfeței (6.270 de rânduri × 8 limbi, 6,3 MB) a trecut în `i18n/keys.js` plus un fișier per limbă, încărcate la cerere (româna nu încarcă nimic; o altă limbă încarcă keys + engleza + limba aleasă); service worker-ul le păstrează în cache și, când pagina e inactivă, restul se încarcă în fundal (prin tag-uri script; nu cu Save-Data / conexiuni lente), deci și schimbarea limbii funcționează offline; dacă un pachet nu e disponibil se afișează o notificare și textul rămâne în română. CSP: `script-src 'self'` adăugat pentru aceste fișiere (`connect-src` rămâne `'none'`). Hash-ul de integritate încorporat (EMBED_SHA) a fost recalculat, iar diagnosticul nu mai numără pachetele drept cereri externe. Test nou: `tests/lazy.test.mjs`.
 
 - 2.3.9 — 2026-10-22: fff-kit 1.1.4: ținte tactile și text minim
 - 2.3.8 — 2026-10-22: fff-kit 1.1.2: PBKDF2 600 000 iterații, protecție anti-clickjacking

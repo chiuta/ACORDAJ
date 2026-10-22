@@ -2,7 +2,7 @@
   "schema": 1,
   "slug": "acordaj",
   "name": "ACORDAJ — Atlasul celor 1134 de sisteme spirituale",
-  "version": "2.3.9",
+  "version": "2.3.10",
   "updated": "2026-10-22",
   "description": "Atlas offline al celor 1134 de cursuri, sisteme și inițieri spirituale (lista de pe cursurispirituale.webnode.ro, neafiliat), cu context istoric și discernământ critic; fără validare științifică. Un singur fișier HTML, fără server și fără urmărire.",
   "egress": [
@@ -27,13 +27,13 @@
     "acordaj.theme",
     "acordaj.v1"
   ],
-  "sizeBytes": 8471568,
-  "sha256": "10e4798a7bf706992d4a2be7c4e86a9d31a2d704003d46441607751c62a44e57",
+  "sizeBytes": 1905656,
+  "sha256": "403db8816bc55d795102555dc09b37a6438c1bae317f4941b4355f060c23ae57",
   "csp": {
     "present": true,
     "directives": {
       "default-src": "'none'",
-      "script-src": "sha256×5",
+      "script-src": "'self' sha256×5",
       "style-src": "'unsafe-inline'",
       "img-src": "'self' data: blob:",
       "media-src": "blob: data:",
@@ -72,7 +72,7 @@
     ]
   },
   "kit": {
-    "version": "1.1.4",
+    "version": "1.2.0",
     "modules": [
       "core",
       "label",
@@ -80,5 +80,14 @@
       "search"
     ]
   },
-  "selfSerializing": true
+  "selfSerializing": true,
+  "cspSelfTest": {
+    "host": "example.com",
+    "intentional": true,
+    "via": [
+      "fetch"
+    ],
+    "note": "Butonul din panoul de transparență încearcă, doar la clic, un fetch către https://example.com/ pentru a arăta că CSP-ul îl blochează. Nu trimite date și nu este o dependență."
+  },
+  "egressNote": "Nicio cerere de rețea reală. Intrarea example.com din etichetă este autotestul CSP (la clic, blocat de CSP)."
 }

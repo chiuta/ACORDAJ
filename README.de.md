@@ -2,7 +2,7 @@
 
 [English](README.md) · [Română](README.ro.md) · [Français](README.fr.md) · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · **Deutsch** · [Magyar](README.hu.md)
 
-**Version:** 2.3.9 · **Zuletzt aktualisiert:** 2026-10-22
+**Version:** 2.3.10 · **Zuletzt aktualisiert:** 2026-10-22
 
 Oberflächensprachen: **Română, English, Français, Italiano, Español, Português (PT), Deutsch, Magyar**
 
@@ -45,6 +45,8 @@ Integrität prüfen: `sha256sum index.html`
 ## Daten und Datenschutz
 Durch Audit geprüft: Die Seite hat eine strenge CSP (`connect-src 'none'`) und stellt keine Netzwerkanfragen; Einstellungen und Notizen werden in `localStorage` gespeichert. Das Skript ist durch eine CSP mit Hash geschützt (`script-src 'sha256-…'`, ohne `'unsafe-inline'` für Skripte); Inline-Handler gibt es nicht mehr. Es gibt einen nur vom Benutzer ausgelösten Konnektivitätstest (die Schaltfläche im Abschnitt „Ohne Grenzen“), der von der CSP blockiert werden sollte.
 
+**Absichtlicher CSP-Selbsttest.** Der einzige netzwerkähnliche Code ist die Schaltfläche im Transparenzpanel, die nur auf Klick einen `fetch` an `https://example.com/` versucht. Sie sendet keine Daten; sie zeigt, dass die CSP die Verbindung **blockiert**. Er ist bewusst in `fff.config.json` (`cspSelfTest`) deklariert: der Eintrag `example.com` im Transparenzlabel ist dieser Test, keine echte Abhängigkeit.
+
 ## Rechte und Zuschreibung
 - **Quelle der Liste:** Die 1134 Titel stammen von [cursurispirituale.webnode.ro](https://cursurispirituale.webnode.ro/) und sind in der dortigen Reihenfolge und Nummerierung erhalten. Die Titel gehören der Quelle und ihren Rechteinhabern; die Rechte an der ursprünglichen Liste wurden nicht geprüft.
 - **Unabhängiges Projekt:** ACORDAJ ist nicht mit der Quellwebsite verbunden und wird von ihr weder gebilligt noch unterstützt.
@@ -65,6 +67,7 @@ MIT-Lizenz für den Code und die Struktur der Anwendung — siehe `LICENSE`. Die
 - Tests: `tests/fff-r8.test.mjs` (Netzwerk gesperrt, 1280 und 360 px, axe 0 Verstöße bei geöffnetem Dialog, Integrität, Favoriten in der Kopie).
 
 ## Verlauf / Changelog
+- **2.3.10 — 2026-10-22:** Gewicht: die Seite schrumpft von 8,2 MB auf 1,9 MB. Das Oberflächenwörterbuch (6.270 Zeilen × 8 Sprachen, 6,3 MB) liegt jetzt in `i18n/keys.js` plus einer Datei pro Sprache und wird bei Bedarf geladen (Rumänisch lädt nichts; eine andere Sprache lädt keys + Englisch + die gewählte); der Service Worker cached sie und im Leerlauf wird der Rest im Hintergrund geladen (über Script-Tags; nicht bei Save-Data / langsamer Verbindung), sodass der Sprachwechsel auch offline funktioniert; ist ein Paket nicht verfügbar, erscheint ein Hinweis und der Text bleibt rumänisch. CSP: `script-src 'self'` für diese Dateien ergänzt (`connect-src` bleibt `'none'`). Der eingebettete Integritäts-Hash (EMBED_SHA) wurde neu berechnet, und die Diagnose zählt die Pakete nicht mehr als externe Anfragen. Neuer Test: `tests/lazy.test.mjs`.
 
 - 2.3.9 — 2026-10-22: fff-kit 1.1.4: Touch-Ziele und Mindestschriftgröße
 - 2.3.8 — 2026-10-22: fff-kit 1.1.2: PBKDF2 mit 600.000 Iterationen, Schutz vor Clickjacking

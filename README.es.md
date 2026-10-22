@@ -2,7 +2,7 @@
 
 [English](README.md) · [Română](README.ro.md) · [Français](README.fr.md) · [Italiano](README.it.md) · **Español** · [Português](README.pt.md) · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-**Versión:** 2.3.9 · **Última actualización:** 2026-10-22
+**Versión:** 2.3.10 · **Última actualización:** 2026-10-22
 
 Idiomas de la interfaz: **Română, English, Français, Italiano, Español, Português (PT), Deutsch, Magyar**
 
@@ -45,6 +45,8 @@ Comprueba la integridad: `sha256sum index.html`
 ## Datos y privacidad
 Verificado mediante auditoría: la página tiene una CSP estricta (`connect-src 'none'`) y no realiza solicitudes de red; las preferencias y las notas se guardan en `localStorage`. El script está protegido por una CSP con hash (`script-src 'sha256-…'`, sin `'unsafe-inline'` para los scripts); ya no quedan manejadores en línea. Existe una prueba de conectividad activada solo por el usuario (el botón de la sección «Sin fronteras»), que debería ser bloqueada por la CSP.
 
+**Autoprueba CSP intencionada.** El único código que parece de red es el botón del panel de transparencia que intenta un `fetch` a `https://example.com/` solo cuando lo pulsas. No envía datos; sirve para mostrar que la CSP **bloquea** la conexión. Está declarado a propósito en `fff.config.json` (`cspSelfTest`): la entrada `example.com` de la etiqueta de transparencia es esta prueba, no una dependencia real.
+
 ## Derechos y atribución
 - **Fuente de la lista:** los 1134 títulos proceden de [cursurispirituale.webnode.ro](https://cursurispirituale.webnode.ro/), conservados en el orden y la numeración de ese sitio. Los títulos pertenecen a la fuente y a sus titulares; no se han verificado los derechos sobre la lista original.
 - **Proyecto independiente:** ACORDAJ no está afiliado al sitio de origen y no está aprobado ni respaldado por este.
@@ -65,6 +67,7 @@ Licencia MIT para el código y la estructura de la aplicación — véase `LICEN
 - Pruebas: `tests/fff-r8.test.mjs` (red bloqueada, 1280 y 360 px, axe 0 infracciones con el diálogo abierto, integridad, favoritos en la copia).
 
 ## Historial / Changelog
+- **2.3.10 — 2026-10-22:** Peso: la página baja de 8,2 MB a 1,9 MB. El diccionario de la interfaz (6.270 filas × 8 idiomas, 6,3 MB) pasa a `i18n/keys.js` más un archivo por idioma, cargados bajo demanda (el rumano no carga nada; otro idioma carga keys + inglés + el elegido); el service worker los guarda en caché y, cuando la página está inactiva, el resto se carga en segundo plano (con etiquetas script; no con Save-Data / conexiones lentas), de modo que cambiar de idioma también funciona sin conexión; si un paquete no está disponible se muestra un aviso y el texto queda en rumano. CSP: `script-src 'self'` añadido para estos archivos (`connect-src` sigue en `'none'`). El hash de integridad incorporado (EMBED_SHA) se recalculó y el diagnóstico ya no cuenta los paquetes como solicitudes externas. Nueva prueba: `tests/lazy.test.mjs`.
 
 - 2.3.9 — 2026-10-22: fff-kit 1.1.4: objetivos táctiles y tamaño mínimo de texto
 - 2.3.8 — 2026-10-22: fff-kit 1.1.2: PBKDF2 600 000 iteraciones, protección anti-clickjacking

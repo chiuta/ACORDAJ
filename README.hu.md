@@ -2,7 +2,7 @@
 
 [English](README.md) · [Română](README.ro.md) · [Français](README.fr.md) · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · [Deutsch](README.de.md) · **Magyar**
 
-**Verzió:** 2.3.9 · **Utolsó frissítés:** 2026-10-22
+**Verzió:** 2.3.10 · **Utolsó frissítés:** 2026-10-22
 
 A felület nyelvei: **Română, English, Français, Italiano, Español, Português (PT), Deutsch, Magyar**
 
@@ -45,6 +45,8 @@ Az integritás ellenőrzése: `sha256sum index.html`
 ## Adatok és adatvédelem
 Audittal ellenőrizve: az oldalon szigorú CSP van (`connect-src 'none'`), és nem végez hálózati kéréseket; a beállítások és a jegyzetek a `localStorage`-ben maradnak. A szkriptet hash-sel ellátott CSP védi (`script-src 'sha256-…'`, a szkriptekhez `'unsafe-inline'` nélkül); beágyazott eseménykezelők már nincsenek. Van egy csak a felhasználó által elindított kapcsolatteszt (a „Határok nélkül” szakasz gombja), amelyet a CSP-nek blokkolnia kell.
 
+**Szándékos CSP-önteszt.** Az egyetlen hálózatnak tűnő kód az átláthatósági panel gombja, amely csak kattintásra próbál egy `fetch`-et a `https://example.com/` felé. Nem küld adatot; azt mutatja meg, hogy a CSP **blokkolja** a kapcsolatot. Szándékosan van deklarálva a `fff.config.json`-ban (`cspSelfTest`): az átláthatósági címke `example.com` bejegyzése ez a teszt, nem valódi függőség.
+
 ## Jogok és forrásmegjelölés
 - **A lista forrása:** az 1134 cím a [cursurispirituale.webnode.ro](https://cursurispirituale.webnode.ro/) oldalról származik, az ottani sorrendben és számozással megőrizve. A címek a forrást és jogtulajdonosaikat illetik; az eredeti lista jogait nem ellenőriztük.
 - **Független projekt:** az ACORDAJ nincs kapcsolatban a forrásoldallal, és az nem hagyta jóvá, nem támogatja.
@@ -65,6 +67,7 @@ MIT licenc az alkalmazás kódjára és szerkezetére — lásd `LICENSE`. Az 11
 - Tesztek: `tests/fff-r8.test.mjs` (blokkolt hálózat, 1280 és 360 px, axe 0 szabálysértés megnyitott párbeszédablakkal, integritás, kedvencek a másolatban).
 
 ## Előzmények / Changelog
+- **2.3.10 — 2026-10-22:** Méret: az oldal 8,2 MB-ról 1,9 MB-ra csökken. A felület szótára (6 270 sor × 8 nyelv, 6,3 MB) az `i18n/keys.js` fájlba és nyelvenként egy fájlba került, igény szerint töltődik (a román nem tölt semmit; más nyelv a keys + angol + a választott nyelvet tölti); a service worker gyorsítótárazza őket, tétlen oldalnál a többi a háttérben töltődik (script címkékkel; Save-Data / lassú kapcsolat esetén nem), így a nyelvváltás offline is működik; ha egy csomag nem érhető el, értesítés jelenik meg és a szöveg román marad. CSP: ezekhez a fájlokhoz `script-src 'self'` került be (a `connect-src` marad `'none'`). A beágyazott integritás-hash (EMBED_SHA) újraszámolva, a diagnosztika pedig már nem számítja külső kérésnek a csomagokat. Új teszt: `tests/lazy.test.mjs`.
 
 - 2.3.9 — 2026-10-22: fff-kit 1.1.4: érintési célpontok és minimális szövegméret
 - 2.3.8 — 2026-10-22: fff-kit 1.1.2: PBKDF2 600 000 iteráció, clickjacking elleni védelem
