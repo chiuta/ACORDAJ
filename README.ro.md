@@ -2,7 +2,7 @@
 
 [English](README.md) · **Română** · [Français](README.fr.md) · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-**Versiune:** 2.3.5 · **Ultima actualizare:** 2026-10-22
+**Versiune:** 2.3.6 · **Ultima actualizare:** 2026-10-22
 
 Limbile interfeței: **Română, English, Français, Italiano, Español, Português (PT), Deutsch, Magyar**
 
@@ -68,6 +68,7 @@ Licență MIT pentru codul și structura aplicației — vezi `LICENSE`. Titluri
 
 ## Istoric / Changelog
 
+- **2.3.6 (22 octombrie 2026):** Fișa cursului nu mai rămâne în română în celelalte limbi: butoanele (Citește/Compară/Salvează), „Despre temă”, „Reprezentare grafică”, tooltip-urile și tot textul de interfață din fișă sunt traduse în cele 8 limbi (dicționar complet pentru it/es/pt/hu și șiruri cu șabloane). Titlurile și conținutul cursurilor rămân în limba originală.
 - **2.3.5 (22 octombrie 2026):** Traduse rămășițele în română din celelalte limbi: cinci titluri de termeni din glosar, linkurile „sursă”, mesajul gol din vizualizarea cursurilor, două aria-label-uri, iar titlul paginii urmează acum limba interfeței.
 
 - **2.3.4 (19 octombrie 2026):** conținutul (fișele cursurilor, legendele și etichetele SVG ale atlasului, cronologiile, textele de coach/poveste/adăugiri, glosarul, nota despre drepturi) este tradus în en, fr, es, de, it, pt, hu (100% din textul identificat); atlasul se redesenează la schimbarea limbii. Traduceri automate, neverificate de vorbitori nativi; pasajele despre sănătate/siguranță/bani necesită revizie de specialitate.

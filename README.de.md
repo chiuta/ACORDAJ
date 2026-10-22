@@ -2,7 +2,7 @@
 
 [English](README.md) · [Română](README.ro.md) · [Français](README.fr.md) · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · **Deutsch** · [Magyar](README.hu.md)
 
-**Version:** 2.3.5 · **Zuletzt aktualisiert:** 2026-10-22
+**Version:** 2.3.6 · **Zuletzt aktualisiert:** 2026-10-22
 
 Oberflächensprachen: **Română, English, Français, Italiano, Español, Português (PT), Deutsch, Magyar**
 
@@ -66,6 +66,7 @@ MIT-Lizenz für den Code und die Struktur der Anwendung — siehe `LICENSE`. Die
 
 ## Verlauf / Changelog
 
+- **2.3.6 (22. Oktober 2026):** Das Kursblatt bleibt in anderen Sprachen nicht mehr rumänisch: Schaltflächen (Lesen/Vergleichen/Speichern), „Zum Thema“, „Grafische Darstellung“, Tooltips und der gesamte Oberflächentext des Blatts sind in allen 8 Sprachen übersetzt. Kurstitel und Kursinhalte bleiben in der Originalsprache.
 - **2.3.5 (22. Oktober 2026):** Die letzten rumänischen Reste in den anderen Sprachen übersetzt: fünf Glossar-Begriffstitel, die „Quelle“-Links, die Leermeldung der Kursansicht, zwei aria-labels; der Seitentitel folgt jetzt der Oberflächensprache.
 
 - **2.3.4 (19. Oktober 2026):** Der Inhalt (Kursdatenblätter, Atlaslegenden und SVG-Beschriftungen, Zeitleisten, Coach-/Geschichts-/Ergänzungstexte, Glossar, Rechtehinweis) ist nun in en, fr, es, de, it, pt, hu übersetzt (100 % des erfassten Textes); der Atlas wird beim Sprachwechsel neu gezeichnet. Automatische Übersetzungen, nicht von Muttersprachlern geprüft; die Passagen zu Gesundheit/Sicherheit/Geld müssen fachlich geprüft werden.
