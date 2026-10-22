@@ -2,7 +2,7 @@
 
 [English](README.md) · [Română](README.ro.md) · [Français](README.fr.md) · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · [Deutsch](README.de.md) · **Magyar**
 
-**Verzió:** 2.3.4 · **Utolsó frissítés:** 2026-10-19
+**Verzió:** 2.3.5 · **Utolsó frissítés:** 2026-10-22
 
 A felület nyelvei: **Română, English, Français, Italiano, Español, Português (PT), Deutsch, Magyar**
 
@@ -65,6 +65,8 @@ MIT licenc az alkalmazás kódjára és szerkezetére — lásd `LICENSE`. Az 11
 - Tesztek: `tests/fff-r8.test.mjs` (blokkolt hálózat, 1280 és 360 px, axe 0 szabálysértés megnyitott párbeszédablakkal, integritás, kedvencek a másolatban).
 
 ## Előzmények / Changelog
+
+- **2.3.5 (2026. október 22.):** Lefordítva a többi nyelvben maradt utolsó román elemek: öt szószedet-címszó, a „forrás” hivatkozások, a kurzusnézet üres állapotának üzenete, két aria-label; az oldal címe mostantól a felület nyelvét követi.
 
 - **2.3.4 (2026. október 19.):** a tartalom (kurzusadatlapok, az atlasz jelmagyarázatai és SVG-címkéi, idővonalak, coach-/történet-/kiegészítő szövegek, szójegyzék, jogi megjegyzés) le van fordítva en, fr, es, de, it, pt, hu nyelvre (az azonosított szöveg 100%-a); az atlasz nyelvváltáskor újrarajzolódik. Automatikus fordítások, anyanyelvi beszélők nem ellenőrizték; az egészségről/biztonságról/pénzről szóló részek szakmai felülvizsgálatot igényelnek.
 

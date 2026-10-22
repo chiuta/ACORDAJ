@@ -2,7 +2,7 @@
 
 [English](README.md) · [Română](README.ro.md) · **Français** · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-**Version :** 2.3.4 · **Dernière mise à jour :** 2026-10-19
+**Version :** 2.3.5 · **Dernière mise à jour :** 2026-10-22
 
 Langues de l'interface : **Română, English, Français, Italiano, Español, Português (PT), Deutsch, Magyar**
 
@@ -65,6 +65,8 @@ Licence MIT pour le code et la structure de l'application — voir `LICENSE`. Le
 - Tests : `tests/fff-r8.test.mjs` (réseau bloqué, 1280 et 360 px, axe 0 violation avec la boîte de dialogue ouverte, intégrité, favoris dans la copie).
 
 ## Historique / Changelog
+
+- **2.3.5 (22 octobre 2026) :** Traduction des derniers éléments roumains dans les autres langues : cinq titres de termes du glossaire, les liens « source », le message vide de la vue des cours, deux aria-labels ; le titre de la page suit désormais la langue de l'interface.
 
 - **2.3.4 (19 octobre 2026) :** le contenu (fiches des cours, légendes et étiquettes SVG de l'atlas, chronologies, textes du coach/de l'histoire/des ajouts, glossaire, note sur les droits) est traduit en en, fr, es, de, it, pt, hu (100 % du texte identifié) ; l'atlas est redessiné au changement de langue. Traductions automatiques, non vérifiées par des locuteurs natifs ; les passages sur la santé/sécurité/l'argent doivent être relus par un spécialiste.
 

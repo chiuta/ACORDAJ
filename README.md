@@ -2,7 +2,7 @@
 
 **English** · [Română](README.ro.md) · [Français](README.fr.md) · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-**Version:** 2.3.4 · **Last updated:** 2026-10-19
+**Version:** 2.3.5 · **Last updated:** 2026-10-22
 
 Interface languages: **Română, English, Français, Italiano, Español, Português (PT), Deutsch, Magyar**
 
@@ -65,6 +65,8 @@ MIT licence for the code and structure of the app — see `LICENSE`. The titles 
 - Tests: `tests/fff-r8.test.mjs` (network blocked, 1280 and 360 px, axe 0 violations with the dialog open, integrity, favourites in the copy).
 
 ## History / Changelog
+
+- **2.3.5 (22 October 2026):** Translated the remaining Romanian bits in other languages: five glossary term titles, the "source" links, the empty-state message of the course view, two aria-labels, and the page title now follows the interface language.
 
 - **2.3.4 (19 October 2026):** the content (course sheets, atlas legends and SVG labels, timelines, coach/story/additions texts, glossary, rights note) is now translated into en, fr, es, de, it, pt, hu (100% of the identified text); the atlas is redrawn when the language changes. Automatic translations, not verified by native speakers; health/safety/financial passages need specialist review.
 

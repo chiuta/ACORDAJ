@@ -2,7 +2,7 @@
 
 [English](README.md) · [Română](README.ro.md) · [Français](README.fr.md) · **Italiano** · [Español](README.es.md) · [Português](README.pt.md) · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-**Versione:** 2.3.4 · **Ultimo aggiornamento:** 2026-10-19
+**Versione:** 2.3.5 · **Ultimo aggiornamento:** 2026-10-22
 
 Lingue dell'interfaccia: **Română, English, Français, Italiano, Español, Português (PT), Deutsch, Magyar**
 
@@ -65,6 +65,8 @@ Licenza MIT per il codice e la struttura dell'app — vedi `LICENSE`. I titoli d
 - Test: `tests/fff-r8.test.mjs` (rete bloccata, 1280 e 360 px, axe 0 violazioni con il dialogo aperto, integrità, preferiti nella copia).
 
 ## Cronologia / Changelog
+
+- **2.3.5 (22 ottobre 2026):** Tradotti gli ultimi elementi rimasti in rumeno nelle altre lingue: cinque titoli di termini del glossario, i link «fonte», il messaggio vuoto della vista dei corsi, due aria-label; il titolo della pagina segue ora la lingua dell'interfaccia.
 
 - **2.3.4 (19 ottobre 2026):** i contenuti (schede dei corsi, legende ed etichette SVG dell'atlante, cronologie, testi di coach/storia/aggiunte, glossario, nota sui diritti) sono tradotti in en, fr, es, de, it, pt, hu (100% del testo individuato); l'atlante viene ridisegnato al cambio di lingua. Traduzioni automatiche, non verificate da madrelingua; i passaggi su salute/sicurezza/denaro richiedono la revisione di uno specialista.
 
