@@ -2,7 +2,7 @@
 
 [English](README.md) · [Română](README.ro.md) · [Français](README.fr.md) · **Italiano** · [Español](README.es.md) · [Português](README.pt.md) · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-**Versione:** 2.3.8 · **Ultimo aggiornamento:** 2026-10-22
+**Versione:** 2.3.9 · **Ultimo aggiornamento:** 2026-10-22
 
 Lingue dell'interfaccia: **Română, English, Français, Italiano, Español, Português (PT), Deutsch, Magyar**
 
@@ -66,6 +66,7 @@ Licenza MIT per il codice e la struttura dell'app — vedi `LICENSE`. I titoli d
 
 ## Cronologia / Changelog
 
+- 2.3.9 — 2026-10-22: fff-kit 1.1.4: target touch e dimensione minima del testo
 - 2.3.8 — 2026-10-22: fff-kit 1.1.2: PBKDF2 600.000 iterazioni, protezione anti-clickjacking
 - **2.3.7 (22 ottobre 2026):** La ricerca semantica (≈ significato) non si blocca più con parole come «constructor»; un solo H1 per pagina; service worker e manifest reali (funziona offline e si può installare via https); alert/confirm/prompt del browser sostituiti da finestre di dialogo proprie, tradotte nelle 8 lingue; le esportazioni CSV antepongono un apostrofo alle celle simili a formule; testo minimo di 12 px; meta description.
 - **2.3.6 (22 ottobre 2026):** La scheda di un corso non resta più in rumeno nelle altre lingue: pulsanti (Leggi/Confronta/Salva), «Sul tema», «Rappresentazione grafica», tooltip e tutto il testo dell'interfaccia della scheda sono tradotti nelle 8 lingue (dizionario completo per it/es/pt/hu e stringhe con modelli). Titoli e contenuti dei corsi restano nella lingua originale.

@@ -2,7 +2,7 @@
 
 [English](README.md) · [Română](README.ro.md) · [Français](README.fr.md) · [Italiano](README.it.md) · **Español** · [Português](README.pt.md) · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-**Versión:** 2.3.8 · **Última actualización:** 2026-10-22
+**Versión:** 2.3.9 · **Última actualización:** 2026-10-22
 
 Idiomas de la interfaz: **Română, English, Français, Italiano, Español, Português (PT), Deutsch, Magyar**
 
@@ -66,6 +66,7 @@ Licencia MIT para el código y la estructura de la aplicación — véase `LICEN
 
 ## Historial / Changelog
 
+- 2.3.9 — 2026-10-22: fff-kit 1.1.4: objetivos táctiles y tamaño mínimo de texto
 - 2.3.8 — 2026-10-22: fff-kit 1.1.2: PBKDF2 600 000 iteraciones, protección anti-clickjacking
 - **2.3.7 (22 de octubre de 2026):** La búsqueda semántica (≈ significado) ya no falla con palabras como «constructor»; un solo H1 por página; service worker y manifiesto reales (funciona sin conexión y se puede instalar por https); alert/confirm/prompt del navegador sustituidos por diálogos propios traducidos a los 8 idiomas; las exportaciones CSV anteponen un apóstrofo a las celdas que parecen fórmulas; texto mínimo de 12 px; meta description.
 - **2.3.6 (22 de octubre de 2026):** La ficha de un curso ya no queda en rumano en los demás idiomas: botones (Leer/Comparar/Guardar), «Sobre el tema», «Representación gráfica», tooltips y todo el texto de interfaz de la ficha se traducen a los 8 idiomas. Los títulos y el contenido de los cursos siguen en el idioma original.

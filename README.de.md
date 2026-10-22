@@ -2,7 +2,7 @@
 
 [English](README.md) · [Română](README.ro.md) · [Français](README.fr.md) · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · **Deutsch** · [Magyar](README.hu.md)
 
-**Version:** 2.3.8 · **Zuletzt aktualisiert:** 2026-10-22
+**Version:** 2.3.9 · **Zuletzt aktualisiert:** 2026-10-22
 
 Oberflächensprachen: **Română, English, Français, Italiano, Español, Português (PT), Deutsch, Magyar**
 
@@ -66,6 +66,7 @@ MIT-Lizenz für den Code und die Struktur der Anwendung — siehe `LICENSE`. Die
 
 ## Verlauf / Changelog
 
+- 2.3.9 — 2026-10-22: fff-kit 1.1.4: Touch-Ziele und Mindestschriftgröße
 - 2.3.8 — 2026-10-22: fff-kit 1.1.2: PBKDF2 mit 600.000 Iterationen, Schutz vor Clickjacking
 - **2.3.7 (22. Oktober 2026):** Die semantische Suche (≈ Bedeutung) bricht bei Wörtern wie „constructor“ nicht mehr ab; ein einziges H1 pro Seite; echter Service Worker samt Manifest (funktioniert offline und lässt sich über https installieren); alert/confirm/prompt des Browsers durch eigene, in die 8 Sprachen übersetzte Dialoge ersetzt; CSV-Exporte stellen formelähnlichen Zellen ein Apostroph voran; Text mindestens 12 px; Meta-Description.
 - **2.3.6 (22. Oktober 2026):** Das Kursblatt bleibt in anderen Sprachen nicht mehr rumänisch: Schaltflächen (Lesen/Vergleichen/Speichern), „Zum Thema“, „Grafische Darstellung“, Tooltips und der gesamte Oberflächentext des Blatts sind in allen 8 Sprachen übersetzt. Kurstitel und Kursinhalte bleiben in der Originalsprache.

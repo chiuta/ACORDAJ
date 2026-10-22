@@ -2,7 +2,7 @@
 
 **English** · [Română](README.ro.md) · [Français](README.fr.md) · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-**Version:** 2.3.8 · **Last updated:** 2026-10-22
+**Version:** 2.3.9 · **Last updated:** 2026-10-22
 
 Interface languages: **Română, English, Français, Italiano, Español, Português (PT), Deutsch, Magyar**
 
@@ -66,6 +66,7 @@ MIT licence for the code and structure of the app — see `LICENSE`. The titles 
 
 ## History / Changelog
 
+- 2.3.9 — 2026-10-22: fff-kit 1.1.4: touch targets and minimum text size
 - 2.3.8 — 2026-10-22: fff-kit 1.1.2: PBKDF2 600,000 iterations, anti-clickjacking protection
 - **2.3.7 (22 October 2026):** The semantic (≈ meaning) search no longer fails on words such as "constructor"; one H1 per page; real service worker and manifest (works offline and can be installed over https); browser alert/confirm/prompt replaced by own dialogs translated into the 8 languages; CSV exports prefix formula-like cells with an apostrophe; minimum 12 px text; meta description.
 - **2.3.6 (22 October 2026):** Course sheets no longer stay in Romanian in other languages: buttons (Read/Compare/Save), "About the topic", "Graphic representation", tooltips and all other sheet interface text are now translated in all 8 languages (complete dictionary for it/es/pt/hu plus templated strings). Course titles and course content stay in the original language.
