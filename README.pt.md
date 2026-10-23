@@ -2,7 +2,7 @@
 
 [English](README.md) · [Română](README.ro.md) · [Français](README.fr.md) · [Italiano](README.it.md) · [Español](README.es.md) · **Português** · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-**Versão:** 2.3.11 · **Última atualização:** 2026-10-23
+**Versão:** 2.3.12 · **Última atualização:** 2026-10-23
 
 Idiomas da interface: **Română, English, Français, Italiano, Español, Português (PT), Deutsch, Magyar**
 
@@ -67,6 +67,7 @@ Licença MIT para o código e a estrutura da aplicação — ver `LICENSE`. Os t
 - Testes: `tests/fff-r8.test.mjs` (rede bloqueada, 1280 e 360 px, axe 0 violações com o diálogo aberto, integridade, favoritos na cópia).
 
 ## Histórico / Changelog
+- **2.3.12 — 2026-10-23:** Corrigido: a constante de versão (`BUILD.v` / `BUILD.date`, usada nas exportações e no nome da cache) ainda indicava 2.3.10 / 2026-10-22; o anúncio para leitores de ecrã ao mudar de vista misturava romeno; as sugestões diárias, as etiquetas dos módulos de coaching, as dimensões da Roda e os nomes das «lentes» da história não estavam traduzidos (59 linhas novas × 7 línguas, tradução automática não verificada por nativos). **Ainda por traduzir:** os títulos das referências do módulo de coaching e algumas legendas do atlas. Novo: `tests/r10-audit.test.mjs`.
 - **2.3.10 — 2026-10-22:** Peso: a página desce de 8,2 MB para 1,9 MB. O dicionário da interface (6.270 linhas × 8 idiomas, 6,3 MB) passou para `i18n/keys.js` mais um ficheiro por idioma, carregados a pedido (o romeno não carrega nada; outro idioma carrega keys + inglês + o escolhido); o service worker guarda-os em cache e, quando a página está inativa, o resto carrega em segundo plano (com etiquetas script; não com Save-Data / ligações lentas), pelo que mudar de idioma também funciona offline; se um pacote não estiver disponível, mostra-se um aviso e o texto fica em romeno. CSP: `script-src 'self'` acrescentado para estes ficheiros (`connect-src` continua `'none'`). O hash de integridade incorporado (EMBED_SHA) foi recalculado e o diagnóstico já não conta os pacotes como pedidos externos. Novo teste: `tests/lazy.test.mjs`.
 
 - 2.3.9 — 2026-10-22: fff-kit 1.1.4: alvos de toque e tamanho mínimo do texto
