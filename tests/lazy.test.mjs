@@ -1,4 +1,4 @@
-// ACORDAJ — dicționarul UI (6 270 rânduri x 8 limbi, ≈6,3 MB) încărcat la cerere din i18n/ (2.3.11).
+// ACORDAJ — dicționarul UI (6 270 rânduri x 8 limbi, ≈6,3 MB) încărcat la cerere din i18n/ (2.3.12).
 // Rulare: node tests/lazy.test.mjs   (server local pe loopback; rețeaua externă blocată)
 import {createRequire} from 'module';
 import http from 'node:http';

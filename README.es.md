@@ -2,7 +2,7 @@
 
 [English](README.md) · [Română](README.ro.md) · [Français](README.fr.md) · [Italiano](README.it.md) · **Español** · [Português](README.pt.md) · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-**Versión:** 2.3.11 · **Última actualización:** 2026-10-23
+**Versión:** 2.3.12 · **Última actualización:** 2026-10-23
 
 Idiomas de la interfaz: **Română, English, Français, Italiano, Español, Português (PT), Deutsch, Magyar**
 
@@ -67,6 +67,7 @@ Licencia MIT para el código y la estructura de la aplicación — véase `LICEN
 - Pruebas: `tests/fff-r8.test.mjs` (red bloqueada, 1280 y 360 px, axe 0 infracciones con el diálogo abierto, integridad, favoritos en la copia).
 
 ## Historial / Changelog
+- **2.3.12 — 2026-10-23:** Corregido: la constante de versión (`BUILD.v` / `BUILD.date`, usada en las exportaciones y en el nombre de la caché) seguía indicando 2.3.10 / 2026-10-22; el anuncio para lectores de pantalla al cambiar de vista mezclaba rumano; las sugerencias diarias, las etiquetas de los módulos de coaching, las dimensiones de la Rueda y los nombres de las «lentes» de la historia no estaban traducidos (59 filas nuevas × 7 idiomas, traducción automática no verificada por nativos). **Siguen sin traducir:** los títulos de las referencias del módulo de coaching y algunas leyendas del atlas. Nuevo: `tests/r10-audit.test.mjs`.
 - **2.3.10 — 2026-10-22:** Peso: la página baja de 8,2 MB a 1,9 MB. El diccionario de la interfaz (6.270 filas × 8 idiomas, 6,3 MB) pasa a `i18n/keys.js` más un archivo por idioma, cargados bajo demanda (el rumano no carga nada; otro idioma carga keys + inglés + el elegido); el service worker los guarda en caché y, cuando la página está inactiva, el resto se carga en segundo plano (con etiquetas script; no con Save-Data / conexiones lentas), de modo que cambiar de idioma también funciona sin conexión; si un paquete no está disponible se muestra un aviso y el texto queda en rumano. CSP: `script-src 'self'` añadido para estos archivos (`connect-src` sigue en `'none'`). El hash de integridad incorporado (EMBED_SHA) se recalculó y el diagnóstico ya no cuenta los paquetes como solicitudes externas. Nueva prueba: `tests/lazy.test.mjs`.
 
 - 2.3.9 — 2026-10-22: fff-kit 1.1.4: objetivos táctiles y tamaño mínimo de texto

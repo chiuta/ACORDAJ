@@ -2,7 +2,7 @@
 
 [English](README.md) · [Română](README.ro.md) · [Français](README.fr.md) · **Italiano** · [Español](README.es.md) · [Português](README.pt.md) · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-**Versione:** 2.3.11 · **Ultimo aggiornamento:** 2026-10-23
+**Versione:** 2.3.12 · **Ultimo aggiornamento:** 2026-10-23
 
 Lingue dell'interfaccia: **Română, English, Français, Italiano, Español, Português (PT), Deutsch, Magyar**
 
@@ -67,6 +67,7 @@ Licenza MIT per il codice e la struttura dell'app — vedi `LICENSE`. I titoli d
 - Test: `tests/fff-r8.test.mjs` (rete bloccata, 1280 e 360 px, axe 0 violazioni con il dialogo aperto, integrità, preferiti nella copia).
 
 ## Cronologia / Changelog
+- **2.3.12 — 2026-10-23:** Corretto: la costante di versione (`BUILD.v` / `BUILD.date`, usata negli export e nel nome della cache) indicava ancora 2.3.10 / 2026-10-22; l’annuncio per i lettori di schermo al cambio di vista mescolava il rumeno; i suggerimenti giornalieri, le etichette dei moduli di coaching, le dimensioni della Ruota e i nomi delle «lenti» della storia non erano tradotti (59 nuove righe × 7 lingue, traduzione automatica non verificata da madrelingua). **Ancora non tradotti:** i titoli dei riferimenti del modulo di coaching e alcune legende dell’atlante. Novità: `tests/r10-audit.test.mjs`.
 - **2.3.10 — 2026-10-22:** Peso: la pagina scende da 8,2 MB a 1,9 MB. Il dizionario dell’interfaccia (6.270 righe × 8 lingue, 6,3 MB) è in `i18n/keys.js` più un file per lingua, caricati su richiesta (il rumeno non carica nulla; un’altra lingua carica keys + inglese + quella scelta); il service worker li tiene in cache e, quando la pagina è inattiva, il resto si carica in background (con tag script; non con Save-Data / connessioni lente), quindi anche il cambio lingua funziona offline; se un pacchetto non è disponibile viene mostrato un avviso e il testo resta in rumeno. CSP: `script-src 'self'` aggiunto per questi file (`connect-src` resta `'none'`). L’hash di integrità incorporato (EMBED_SHA) è stato ricalcolato e la diagnostica non conta più i pacchetti come richieste esterne. Nuovo test: `tests/lazy.test.mjs`.
 
 - 2.3.9 — 2026-10-22: fff-kit 1.1.4: target touch e dimensione minima del testo

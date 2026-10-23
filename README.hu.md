@@ -2,7 +2,7 @@
 
 [English](README.md) · [Română](README.ro.md) · [Français](README.fr.md) · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · [Deutsch](README.de.md) · **Magyar**
 
-**Verzió:** 2.3.11 · **Utolsó frissítés:** 2026-10-23
+**Verzió:** 2.3.12 · **Utolsó frissítés:** 2026-10-23
 
 A felület nyelvei: **Română, English, Français, Italiano, Español, Português (PT), Deutsch, Magyar**
 
@@ -67,6 +67,7 @@ MIT licenc az alkalmazás kódjára és szerkezetére — lásd `LICENSE`. Az 11
 - Tesztek: `tests/fff-r8.test.mjs` (blokkolt hálózat, 1280 és 360 px, axe 0 szabálysértés megnyitott párbeszédablakkal, integritás, kedvencek a másolatban).
 
 ## Előzmények / Changelog
+- **2.3.12 — 2026-10-23:** Javítva: a verziókonstans (`BUILD.v` / `BUILD.date`, exportokban és a gyorsítótár nevében használt) még 2.3.10 / 2026-10-22 volt; a képernyőolvasóknak szóló bejelentés nézetváltáskor románt kevert; a napi gyakorlatjavaslatok, a coaching-modulok feliratai, a Kerék dimenziói és a történet „lencséinek” nevei nem voltak lefordítva (59 új sor × 7 nyelv, gépi fordítás, anyanyelvi beszélők nem ellenőrizték). **Még lefordítatlan:** a coaching-modul hivatkozásainak címei és néhány atlaszfelirat. Új: `tests/r10-audit.test.mjs`.
 - **2.3.10 — 2026-10-22:** Méret: az oldal 8,2 MB-ról 1,9 MB-ra csökken. A felület szótára (6 270 sor × 8 nyelv, 6,3 MB) az `i18n/keys.js` fájlba és nyelvenként egy fájlba került, igény szerint töltődik (a román nem tölt semmit; más nyelv a keys + angol + a választott nyelvet tölti); a service worker gyorsítótárazza őket, tétlen oldalnál a többi a háttérben töltődik (script címkékkel; Save-Data / lassú kapcsolat esetén nem), így a nyelvváltás offline is működik; ha egy csomag nem érhető el, értesítés jelenik meg és a szöveg román marad. CSP: ezekhez a fájlokhoz `script-src 'self'` került be (a `connect-src` marad `'none'`). A beágyazott integritás-hash (EMBED_SHA) újraszámolva, a diagnosztika pedig már nem számítja külső kérésnek a csomagokat. Új teszt: `tests/lazy.test.mjs`.
 
 - 2.3.9 — 2026-10-22: fff-kit 1.1.4: érintési célpontok és minimális szövegméret

@@ -2,7 +2,7 @@
 
 [English](README.md) · **Română** · [Français](README.fr.md) · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-**Versiune:** 2.3.11 · **Ultima actualizare:** 2026-10-23
+**Versiune:** 2.3.12 · **Ultima actualizare:** 2026-10-23
 
 Limbile interfeței: **Română, English, Français, Italiano, Español, Português (PT), Deutsch, Magyar**
 
@@ -69,6 +69,7 @@ Licență MIT pentru codul și structura aplicației — vezi `LICENSE`. Titluri
 - Teste: `tests/fff-r8.test.mjs` (rețea blocată, 1280 și 360 px, axe 0 violări cu dialogul deschis, integritate, favorite în copie).
 
 ## Istoric / Changelog
+- **2.3.12 — 2026-10-23:** Reparat: constanta de versiune (`BUILD.v` / `BUILD.date`, folosită în exporturi și în numele cache-ului) rămăsese 2.3.10 / 2026-10-22; anunțul pentru cititoarele de ecran la schimbarea vizualizării amesteca româna („Vizualizare: Categories”); sugestiile zilnice, etichetele modulelor de coaching, dimensiunile Roții și numele lentilelor din poveste nu erau traduse (59 de rânduri noi × 7 limbi, traducere automată, neverificată de vorbitori nativi). **Încă netraduse:** titlurile referințelor din modulul de coaching și unele legende din atlas. Nou: `tests/r10-audit.test.mjs`.
 - **2.3.10 — 2026-10-22:** Greutate: pagina scade de la 8,2 MB la 1,9 MB. Dicționarul interfeței (6.270 de rânduri × 8 limbi, 6,3 MB) a trecut în `i18n/keys.js` plus un fișier per limbă, încărcate la cerere (româna nu încarcă nimic; o altă limbă încarcă keys + engleza + limba aleasă); service worker-ul le păstrează în cache și, când pagina e inactivă, restul se încarcă în fundal (prin tag-uri script; nu cu Save-Data / conexiuni lente), deci și schimbarea limbii funcționează offline; dacă un pachet nu e disponibil se afișează o notificare și textul rămâne în română. CSP: `script-src 'self'` adăugat pentru aceste fișiere (`connect-src` rămâne `'none'`). Hash-ul de integritate încorporat (EMBED_SHA) a fost recalculat, iar diagnosticul nu mai numără pachetele drept cereri externe. Test nou: `tests/lazy.test.mjs`.
 
 - 2.3.9 — 2026-10-22: fff-kit 1.1.4: ținte tactile și text minim

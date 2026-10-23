@@ -2,7 +2,7 @@
 
 **English** · [Română](README.ro.md) · [Français](README.fr.md) · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-**Version:** 2.3.11 · **Last updated:** 2026-10-23
+**Version:** 2.3.12 · **Last updated:** 2026-10-23
 
 Interface languages: **Română, English, Français, Italiano, Español, Português (PT), Deutsch, Magyar**
 
@@ -67,6 +67,7 @@ MIT licence for the code and structure of the app — see `LICENSE`. The titles 
 - Tests: `tests/fff-r8.test.mjs` (network blocked, 1280 and 360 px, axe 0 violations with the dialog open, integrity, favourites in the copy).
 
 ## History / Changelog
+- **2.3.12 — 2026-10-23:** Fix: the build constant (`BUILD.v` / `BUILD.date`, used in exports and the cache name) still said 2.3.10 / 2026-10-22; the screen-reader announcement on switching views mixed Romanian ("Vizualizare: Categories"); the daily practice prompts, the coaching-module labels, the Wheel dimensions and the story lens names were not translated (59 new dictionary rows × 7 languages, machine translation, not verified by native speakers). **Still untranslated:** the titles of the references in the coaching module and some atlas legends. New: `tests/r10-audit.test.mjs`.
 - **2.3.10 — 2026-10-22:** Weight: the page falls from 8.2 MB to 1.9 MB. The interface dictionary (6,270 rows × 8 languages, 6.3 MB) moved to `i18n/keys.js` plus one file per language, loaded on demand (Romanian loads nothing; another language loads keys + English + the chosen one); the service worker caches them and, once idle, the page loads the rest in the background (through script tags; skipped with Save-Data / slow connections), so switching language also works offline; if a pack is unavailable a notice is shown and the text stays in Romanian. CSP: `script-src 'self'` added for these files (`connect-src` stays `'none'`). The embedded integrity hash (EMBED_SHA) was recomputed and the diagnostic no longer counts the packs as external requests. New test: `tests/lazy.test.mjs`.
 
 - 2.3.9 — 2026-10-22: fff-kit 1.1.4: touch targets and minimum text size

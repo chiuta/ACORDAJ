@@ -2,7 +2,7 @@
 
 [English](README.md) · [Română](README.ro.md) · **Français** · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-**Version :** 2.3.11 · **Dernière mise à jour :** 2026-10-23
+**Version :** 2.3.12 · **Dernière mise à jour :** 2026-10-23
 
 Langues de l'interface : **Română, English, Français, Italiano, Español, Português (PT), Deutsch, Magyar**
 
@@ -67,6 +67,7 @@ Licence MIT pour le code et la structure de l'application — voir `LICENSE`. Le
 - Tests : `tests/fff-r8.test.mjs` (réseau bloqué, 1280 et 360 px, axe 0 violation avec la boîte de dialogue ouverte, intégrité, favoris dans la copie).
 
 ## Historique / Changelog
+- **2.3.12 — 2026-10-23 :** Corrigé : la constante de version (`BUILD.v` / `BUILD.date`, utilisée dans les exports et le nom du cache) indiquait encore 2.3.10 / 2026-10-22 ; l’annonce pour lecteurs d’écran lors du changement de vue mélangeait le roumain ; les suggestions quotidiennes, les libellés des modules de coaching, les dimensions de la Roue et les noms des « lentilles » de l’histoire n’étaient pas traduits (59 nouvelles lignes × 7 langues, traduction automatique non vérifiée par des natifs). **Toujours non traduits :** les titres des références du module de coaching et certaines légendes de l’atlas. Nouveau : `tests/r10-audit.test.mjs`.
 - **2.3.10 — 2026-10-22:** Poids : la page passe de 8,2 Mo à 1,9 Mo. Le dictionnaire de l’interface (6 270 lignes × 8 langues, 6,3 Mo) est dans `i18n/keys.js` plus un fichier par langue, chargés à la demande (le roumain ne charge rien ; une autre langue charge keys + anglais + la langue choisie) ; le service worker les met en cache et, quand la page est inactive, le reste se charge en arrière-plan (par balises script ; pas avec Save-Data / connexion lente), de sorte que le changement de langue fonctionne aussi hors ligne ; si un pack est indisponible, un avis s’affiche et le texte reste en roumain. CSP : `script-src 'self'` ajouté pour ces fichiers (`connect-src` reste `'none'`). Le hachage d’intégrité intégré (EMBED_SHA) a été recalculé et le diagnostic ne compte plus les packs comme des requêtes externes. Nouveau test : `tests/lazy.test.mjs`.
 
 - 2.3.9 — 2026-10-22 : fff-kit 1.1.4 : cibles tactiles et taille de texte minimale

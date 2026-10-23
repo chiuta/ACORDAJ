@@ -2,7 +2,7 @@
 
 [English](README.md) · [Română](README.ro.md) · [Français](README.fr.md) · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · **Deutsch** · [Magyar](README.hu.md)
 
-**Version:** 2.3.11 · **Zuletzt aktualisiert:** 2026-10-23
+**Version:** 2.3.12 · **Zuletzt aktualisiert:** 2026-10-23
 
 Oberflächensprachen: **Română, English, Français, Italiano, Español, Português (PT), Deutsch, Magyar**
 
@@ -67,6 +67,7 @@ MIT-Lizenz für den Code und die Struktur der Anwendung — siehe `LICENSE`. Die
 - Tests: `tests/fff-r8.test.mjs` (Netzwerk gesperrt, 1280 und 360 px, axe 0 Verstöße bei geöffnetem Dialog, Integrität, Favoriten in der Kopie).
 
 ## Verlauf / Changelog
+- **2.3.12 — 2026-10-23:** Behoben: Die Versionskonstante (`BUILD.v` / `BUILD.date`, in Exporten und im Cache-Namen verwendet) lautete noch 2.3.10 / 2026-10-22; die Ansage für Screenreader beim Ansichtswechsel mischte Rumänisch; die täglichen Übungsvorschläge, die Beschriftungen der Coaching-Module, die Dimensionen des Rads und die Namen der „Linsen“ der Geschichte waren nicht übersetzt (59 neue Zeilen × 7 Sprachen, maschinelle Übersetzung, nicht von Muttersprachlern geprüft). **Weiterhin unübersetzt:** die Titel der Quellenangaben im Coaching-Modul und einige Legenden des Atlas. Neu: `tests/r10-audit.test.mjs`.
 - **2.3.10 — 2026-10-22:** Gewicht: die Seite schrumpft von 8,2 MB auf 1,9 MB. Das Oberflächenwörterbuch (6.270 Zeilen × 8 Sprachen, 6,3 MB) liegt jetzt in `i18n/keys.js` plus einer Datei pro Sprache und wird bei Bedarf geladen (Rumänisch lädt nichts; eine andere Sprache lädt keys + Englisch + die gewählte); der Service Worker cached sie und im Leerlauf wird der Rest im Hintergrund geladen (über Script-Tags; nicht bei Save-Data / langsamer Verbindung), sodass der Sprachwechsel auch offline funktioniert; ist ein Paket nicht verfügbar, erscheint ein Hinweis und der Text bleibt rumänisch. CSP: `script-src 'self'` für diese Dateien ergänzt (`connect-src` bleibt `'none'`). Der eingebettete Integritäts-Hash (EMBED_SHA) wurde neu berechnet, und die Diagnose zählt die Pakete nicht mehr als externe Anfragen. Neuer Test: `tests/lazy.test.mjs`.
 
 - 2.3.9 — 2026-10-22: fff-kit 1.1.4: Touch-Ziele und Mindestschriftgröße
