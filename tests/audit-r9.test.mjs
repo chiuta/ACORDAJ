@@ -5,7 +5,7 @@ import fs from 'node:fs';
 import http from 'node:http';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
-const require = createRequire('/opt/node-tools/package.json');
+const require = createRequire(process.env.PW_ROOT || import.meta.url);
 const {chromium} = require('playwright');
 const HERE = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.join(HERE, '..');
@@ -15,7 +15,7 @@ const MIME = {'.html': 'text/html; charset=utf-8', '.js': 'text/javascript', '.w
 const srv = http.createServer((q, r) => { let f = path.join(ROOT, decodeURIComponent(q.url.split('?')[0])); if (f.endsWith(path.sep)) f += 'index.html'; fs.readFile(f, (e, d) => { if (e) { r.writeHead(404); r.end(); } else { r.writeHead(200, {'content-type': MIME[path.extname(f)] || 'application/octet-stream'}); r.end(d); } }); });
 await new Promise(r => srv.listen(0, '127.0.0.1', r));
 const base = 'http://127.0.0.1:' + srv.address().port + '/';
-const browser = await chromium.launch({executablePath: '/opt/pw-browsers/chromium', args: ['--no-sandbox']});
+const browser = await chromium.launch({executablePath: process.env.CHROMIUM_PATH || undefined, args: ['--no-sandbox']});
 console.log('ACORDAJ — audit r9');
 const ctx = await browser.newContext({viewport: {width: 1280, height: 800}, acceptDownloads: true, locale: 'ro-RO'});
 const errs = []; const natives = [];
