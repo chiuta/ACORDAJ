@@ -2,7 +2,9 @@
 
 [English](README.md) · **Română** · [Français](README.fr.md) · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-**Versiune:** 3.0.0 · **Ultima actualizare:** 2026-10-26
+**Versiune:** 3.0.1 · **Ultima actualizare:** 2026-10-27
+
+**Stare:** stabil; proveniența listei de titluri de clarificat (acordul autorului neconfirmat) · **Offline:** complet (fără cereri de rețea)
 
 Limbile interfeței: **Română, English, Français, Italiano, Español, Português (PT), Deutsch, Magyar**
 
@@ -56,6 +58,10 @@ Verificat prin audit: pagina are CSP strictă (`connect-src 'none'`) și nu face
 - **Rectificare / retragere:** dacă ești titular de drepturi sau persoană menționată și dorești corectarea sau retragerea, scrie la alexio@trom.tf; răspundem în 7 zile.
 
 *Rights and attribution (EN).* The 1134 course titles come from [cursurispirituale.webnode.ro](https://cursurispirituale.webnode.ro/), kept in that site's order and numbering; they belong to the source and their rights holders. ACORDAJ is an independent project, not affiliated with or endorsed by that site. The author's part (code and structure) is under the MIT licence; the MIT licence does not cover the titles or other third-party material. Rights holders or mentioned persons wishing correction or removal: write to alexio@trom.tf; we reply within 7 days.
+
+## Proveniența listei de titluri și acordul autorului (2026-10-27)
+
+Cele 1134 de titluri sunt preluate de pe cursurispirituale.webnode.ro. O bandă vizibilă sub antetul aplicației (română și engleză) spune acum acest lucru și precizează că **acordul autorului acelei liste nu a fost confirmat — de clarificat**. Aplicația nu pretinde că există un acord. Nu s-a retras și nu s-a șters nimic. Blocul existent „Drepturi și atribuire” (subsol) rămâne neschimbat: ACORDAJ este neafiliat cu site-ul sursă, licența MIT acoperă doar codul și structura autorului, iar cererile de retragere se trimit la alexio@trom.tf.
 
 ## Licență
 Licență MIT pentru codul și structura aplicației — vezi `LICENSE`. Titlurile celor 1134 de cursuri provin de pe cursurispirituale.webnode.ro și nu fac parte din această licență (drepturile asupra listei nu au fost verificate). Textele din pagină au fost aliniate la licența MIT în audit-ul rundei 2 (anterior menționau „fără scop comercial”).
