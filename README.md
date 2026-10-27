@@ -2,7 +2,9 @@
 
 **English** · [Română](README.ro.md) · [Français](README.fr.md) · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-**Version:** 3.0.0 · **Last updated:** 2026-10-26
+**Version:** 3.0.1 · **Last updated:** 2026-10-27
+
+**Status:** stable; provenance of the title list needs clarification (author consent unconfirmed) · **Offline:** complete (no network requests)
 
 Interface languages: **Română, English, Français, Italiano, Español, Português (PT), Deutsch, Magyar**
 
@@ -54,6 +56,10 @@ Verified by audit: the page has a strict CSP (`connect-src 'none'`) and makes no
 - **Correction / removal:** if you are a rights holder or a person mentioned and wish for correction or removal, write to alexio@trom.tf; we reply within 7 days.
 
 *Rights and attribution (EN).* The 1134 course titles come from [cursurispirituale.webnode.ro](https://cursurispirituale.webnode.ro/), kept in that site's order and numbering; they belong to the source and their rights holders. ACORDAJ is an independent project, not affiliated with or endorsed by that site. The author's part (code and structure) is under the MIT licence; the MIT licence does not cover the titles or other third-party material. Rights holders or mentioned persons wishing correction or removal: write to alexio@trom.tf; we reply within 7 days.
+
+## Provenance of the title list and author consent (2026-10-27)
+
+The 1134 titles were taken from cursurispirituale.webnode.ro. A visible band under the header of the app (Romanian and English) now says so, and states that **the consent of that list's author has not been confirmed — to be clarified**. The app does not claim that consent exists. Nothing was removed or withdrawn. The existing "Rights and attribution" block (footer) is unchanged: ACORDAJ is not affiliated with the source site, the MIT licence covers only the author's code and structure, and takedown requests go to alexio@trom.tf.
 
 ## License
 MIT licence for the code and structure of the app — see `LICENSE`. The titles of the 1134 courses come from cursurispirituale.webnode.ro and are not part of this licence (the rights over the list have not been verified). The texts in the page were aligned with the MIT licence in the round 2 audit (they previously mentioned "non-commercial purposes").

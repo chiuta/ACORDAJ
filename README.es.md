@@ -2,7 +2,9 @@
 
 [English](README.md) · [Română](README.ro.md) · [Français](README.fr.md) · [Italiano](README.it.md) · **Español** · [Português](README.pt.md) · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-**Versión:** 3.0.0 · **Última actualización:** 2026-10-26
+**Versión:** 3.0.1 · **Última actualización:** 2026-10-27
+
+**Estado:** estable; procedencia de la lista de títulos por aclarar (consentimiento del autor sin confirmar) · **Sin conexión:** completo (sin peticiones de red)
 
 Idiomas de la interfaz: **Română, English, Français, Italiano, Español, Português (PT), Deutsch, Magyar**
 
