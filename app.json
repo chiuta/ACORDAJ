@@ -27,8 +27,8 @@
     "acordaj.theme",
     "acordaj.v1"
   ],
-  "sizeBytes": 1945031,
-  "sha256": "9b3b56286a7fd2f32885e775f8de02a9825b698b42519954a34005316b052147",
+  "sizeBytes": 2085465,
+  "sha256": "83ad6809bd08f14568ff9ea96ccf891f24c059c630d1ddbace8bccc5c7d281e4",
   "csp": {
     "present": true,
     "directives": {
@@ -70,6 +70,10 @@
       "dialog",
       "label",
       "bundle",
+      "qr",
+      "p2p",
+      "sync",
+      "history",
       "search"
     ]
   },
@@ -81,6 +85,10 @@
       "dialog",
       "label",
       "bundle",
+      "qr",
+      "p2p",
+      "sync",
+      "history",
       "search"
     ]
   },
