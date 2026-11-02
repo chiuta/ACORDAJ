@@ -4,6 +4,8 @@
 
 Doar texte, fără funcții noi.
 
+- Verificare linkuri (2 noiembrie 2026, eșantion de ~37 din 482 de URL-uri unice, 28 confirmate, restul neconcludente; shell fără rețea, verificare prin WebFetch/WebSearch): 3 linkuri mutate au fost actualizate la adresa nouă a aceleiași pagini — NHS (SAD, `/mental-health/conditions/...`), Britannica «Samson» (`/biography/Samson`, în loc de `/EBchecked/topic/520746/`) și Human Givens Institute «Rewind technique» (`/discover/mental-health/the-rewind-detraumatisation-technique/`). Niciun link nu a fost șters; restul eșantionului s-a deschis sau apare în rezultatele de căutare la aceeași adresă.
+
 - Bandă vizibilă sub antet (ro + en): lista celor 1134 de titluri este preluată de pe cursurispirituale.webnode.ro; „acordul autorului nu a fost confirmat — de clarificat”; aplicația este neafiliată cu site-ul sursă.
 - README: „Stare” și „Offline” (8 limbi) și secțiunea despre proveniența listei.
 
