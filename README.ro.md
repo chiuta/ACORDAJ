@@ -2,7 +2,7 @@
 
 [English](README.md) · **Română** · [Français](README.fr.md) · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-**Versiune:** 3.0.4 · **Ultima actualizare:** 2026-11-08
+**Versiune:** 3.0.5 · **Ultima actualizare:** 2026-11-10
 
 **Stare:** stabil; proveniența listei de titluri de clarificat (acordul autorului neconfirmat) · **Offline:** complet (fără cereri de rețea)
 
