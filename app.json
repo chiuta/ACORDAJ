@@ -20,20 +20,21 @@
     "clipboard",
     "serviceWorker",
     "localStorage",
-    "Web Crypto"
+    "Web Crypto",
+    "WebGL"
   ],
   "storageKeys": [
     "__t",
     "acordaj.theme",
     "acordaj.v1"
   ],
-  "sizeBytes": 2139584,
-  "sha256": "26d18fb05d663da9788facbfeb977d05af6297660d069e1e21d4aa4925245c92",
+  "sizeBytes": 2191227,
+  "sha256": "e1c8a557870589affbddea41e730078fc3e4d4addde540884b239eb81bc2889b",
   "csp": {
     "present": true,
     "directives": {
       "default-src": "'none'",
-      "script-src": "'self' sha256×5",
+      "script-src": "'self' sha256×6",
       "style-src": "'unsafe-inline'",
       "img-src": "'self' data: blob:",
       "media-src": "blob: data:",
