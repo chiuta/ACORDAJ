@@ -2,7 +2,7 @@
   "schema": 1,
   "slug": "acordaj",
   "name": "ACORDAJ — Atlasul celor 1134 de sisteme spirituale",
-  "version": "3.1.0",
+  "version": "3.1.1",
   "updated": "2026-11-15",
   "description": "Atlas offline al celor 1134 de cursuri, sisteme și inițieri spirituale (lista de pe cursurispirituale.webnode.ro, neafiliat), cu context istoric și discernământ critic; fără validare științifică. Un singur fișier HTML, fără server și fără urmărire.",
   "egress": [
@@ -28,8 +28,8 @@
     "acordaj.theme",
     "acordaj.v1"
   ],
-  "sizeBytes": 2234537,
-  "sha256": "3a8ec9fad34c6f9537ff341688997e28f8cf4559e5328a1686b2d50965ec9a51",
+  "sizeBytes": 2252573,
+  "sha256": "17f423a0076640ed6c79ac05c111a5edf64560273746c0b8be548c2c66db55c1",
   "csp": {
     "present": true,
     "directives": {
@@ -72,6 +72,7 @@
       "exit",
       "view",
       "a11y",
+      "share",
       "ux",
       "label",
       "bundle",
@@ -83,7 +84,7 @@
     ]
   },
   "kit": {
-    "version": "1.6.0",
+    "version": "1.7.0",
     "modules": [
       "core",
       "store",
@@ -91,6 +92,7 @@
       "exit",
       "view",
       "a11y",
+      "share",
       "ux",
       "label",
       "bundle",
