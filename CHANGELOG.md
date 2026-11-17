@@ -1,5 +1,11 @@
 # Jurnal de modificări — ACORDAJ
 
+## 3.1.2 — 2026-11-17
+
+- Compatibilitate cu browsere mai vechi (Chrome/Edge 55+, Firefox 52+, Safari 10.1+/iOS 10.3+): kitul 1.8.0 aduce stratul de compatibilitate (rezerve pentru API-urile care lipsesc în motoarele vechi), iar sintaxa JavaScript mai nouă decât ES2017 a fost înlocuită cu forme echivalente acolo unde exista; expresiile regulate noi și `import()` trec prin rezerve. Fără modificări de funcționalitate intenționate. Verificat cu parser ES2017 și într-un motor vechi simulat, nu pe dispozitive reale.
+- Corectat: pachetele de limbă din `i18n/` purtau build-ul 3.0.9, iar pagina le respinge dacă build-ul nu coincide cu al ei, așa că la schimbarea limbii interfața rămânea în română (defecțiune prezentă și în 3.1.0 și 3.1.1). Pachetele au fost re-ștampilate cu build-ul paginii; testele de traducere (`lazy`, `r10-audit`) trec din nou.
+- Corectat: suma de integritate încorporată (`EMBED_SHA`) nu mai corespundea scriptului principal; a fost recalculată, iar autotestul din panoul de diagnostic trece din nou.
+
 ## 3.1.1 — 2026-11-15
 
 - Nou: butoane de distribuire pe rețele sociale (vertical, pe marginea din stânga; fără scripturi externe, doar linkuri deschise la clic); bara de zoom cu lupă și „potrivire ecran” revine pe marginea din dreapta, centrată pe verticală; corectat afișarea suprapusă la zoom mare (panourile cu înălțimi în vh/vw nu mai ies din ecran).
