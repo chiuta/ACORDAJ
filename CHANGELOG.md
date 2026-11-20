@@ -1,5 +1,10 @@
 # Jurnal de modificări — ACORDAJ
 
+## 3.1.3 — 2026-11-19
+
+- Ortografie: „Curăţarea Aurei” (cu sedilă) → „Curățarea Aurei” (cu virgulă dedesubt) în numele „Aura Sweep Attunement (Curățarea Aurei)” din atlas și în pachetul de chei de traducere; căutarea și traducerile nu depind de variantă (cheile de căutare sunt normalizate), iar favoritele/bifările sunt indexate după poziție, deci nu se pierd
+- Pachetele de limbă `i18n/*.js` poartă acum versiunea aplicației și se re-ștampilează singure la fiecare release (`fff.config.json` → `versionFiles`), ca ridicarea versiunii să nu le mai invalideze
+
 ## 3.1.2 — 2026-11-17
 
 - Compatibilitate cu browsere mai vechi (Chrome/Edge 55+, Firefox 52+, Safari 10.1+/iOS 10.3+): kitul 1.8.0 aduce stratul de compatibilitate (rezerve pentru API-urile care lipsesc în motoarele vechi), iar sintaxa JavaScript mai nouă decât ES2017 a fost înlocuită cu forme echivalente acolo unde exista; expresiile regulate noi și `import()` trec prin rezerve. Fără modificări de funcționalitate intenționate. Verificat cu parser ES2017 și într-un motor vechi simulat, nu pe dispozitive reale.

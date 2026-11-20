@@ -2,7 +2,7 @@
 
 [English](README.md) · [Română](README.ro.md) · [Français](README.fr.md) · [Italiano](README.it.md) · **Español** · [Português](README.pt.md) · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-**Versión:** 3.1.2 · **Última actualización:** 2026-11-17
+**Versión:** 3.1.3 · **Última actualización:** 2026-11-19
 
 **Estado:** estable; procedencia de la lista de títulos por aclarar (consentimiento del autor sin confirmar) · **Sin conexión:** completo (sin peticiones de red)
 

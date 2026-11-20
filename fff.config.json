@@ -7,5 +7,8 @@
   ],
   "note": "Butonul din panoul de transparență încearcă, doar la clic, un fetch către https://example.com/ pentru a arăta că CSP-ul îl blochează. Nu trimite date și nu este o dependență."
  },
- "egressNote": "Nicio cerere de rețea reală. Intrarea example.com din etichetă este autotestul CSP (la clic, blocat de CSP)."
+ "egressNote": "Nicio cerere de rețea reală. Intrarea example.com din etichetă este autotestul CSP (la clic, blocat de CSP).",
+ "versionFiles": [
+  "i18n/*.js"
+ ]
 }
